@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #0b0d12;
+  color: #e8eaef;
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
+}
+
+@layer base {
+  a {
+    color: inherit;
+  }
+}
