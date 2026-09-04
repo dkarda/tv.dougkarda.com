@@ -60,7 +60,7 @@ export function RatingsPage() {
         genre: '',
         sort: 'title',
       }),
-    [shows, filters.collection, filters.own, filters.toplist, filters.year],
+    [shows, filters.collection, filters.own, filters.status, filters.toplist, filters.year],
   )
   const genreScan = useTmdbGenreMatchIds(constrained, filters.genre)
   const yearScan = useTmdbAirYears(
@@ -128,6 +128,17 @@ export function RatingsPage() {
               value: String(genre.id),
               label: genre.name,
             }))}
+          />
+          <FilterSelect
+            label="Status"
+            value={filters.status}
+            onChange={(status) => setFilters((current) => ({ ...current, status }))}
+            options={[
+              { value: 'watched', label: 'Watched' },
+              { value: 'watching', label: 'Watching' },
+              { value: 'unwatched', label: 'Unwatched' },
+              { value: 'stopped', label: 'Stopped' },
+            ]}
           />
           <FilterSelect
             label="Collection"

@@ -158,6 +158,7 @@ export type CatalogFilters = {
   collection: string
   toplist: string
   own: string
+  status: string
   sort: 'title' | 'score-desc' | 'score-asc' | 'year-desc' | 'year-asc'
 }
 
@@ -168,6 +169,7 @@ export const EMPTY_CATALOG_FILTERS: CatalogFilters = {
   collection: '',
   toplist: '',
   own: '',
+  status: '',
   sort: 'title',
 }
 
@@ -215,6 +217,14 @@ export function filterCatalog(shows: PersonalShow[], filters: CatalogFilters) {
     if (filters.genre && !catalogGenres(show).includes(filters.genre)) return false
     if (filters.year && catalogYear(show) !== filters.year) return false
     if (filters.own && show.own !== filters.own) return false
+    if (filters.status) {
+      const status = (show.status ?? '').trim().toLowerCase()
+      if (filters.status === 'stopped') {
+        if (!status.startsWith('stopped')) return false
+      } else if (status !== filters.status) {
+        return false
+      }
+    }
     if (filters.collection) {
       const names = (show.collections ?? []).map((item) => item.collection)
       if (!names.includes(filters.collection)) return false
