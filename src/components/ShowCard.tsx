@@ -10,14 +10,52 @@ type Props = {
     catalogTitle?: string
     cdnPoster?: string
     note?: string
+    status?: string
+    progress?: string
   }
+}
+
+const STAR_PATH =
+  'M12 2.5 14.94 8.4l6.56.95-4.75 4.63 1.12 6.54L12 17.77 6.13 20.52l1.12-6.54L2.5 9.35l6.56-.95L12 2.5Z'
+
+function initCaps(value: string) {
+  return value
+    .split(/\s+/)
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join(' ')
+}
+
+function OwnStar({ own }: { own?: string }) {
+  const value = own?.trim().toLowerCase()
+  if (value !== 'y' && value !== 'partial') return null
+  const half = value === 'partial'
+
+  return (
+    <span
+      className="absolute right-2 top-2 drop-shadow-[0_1px_2px_rgba(0,0,0,0.85)]"
+      title={half ? 'Partially owned' : 'Owned'}
+      aria-label={half ? 'Partially owned' : 'Owned'}
+    >
+      <span className="relative block h-6 w-6">
+        <svg viewBox="0 0 24 24" className="h-6 w-6 fill-zinc-700" aria-hidden="true">
+          <path d={STAR_PATH} />
+        </svg>
+        <span
+          className={`absolute inset-y-0 left-0 overflow-hidden ${half ? 'w-1/2' : 'w-full'}`}
+        >
+          <svg viewBox="0 0 24 24" className="h-6 w-6 fill-amber-300" aria-hidden="true">
+            <path d={STAR_PATH} />
+          </svg>
+        </span>
+      </span>
+    </span>
+  )
 }
 
 export function ShowCard({ show }: Props) {
   const location = useLocation()
   const poster = show.cdnPoster || posterUrl(show.poster_path, 'w342')
   const year = yearFromDate(show.first_air_date)
-  const owned = show.own === 'y'
 
   return (
     <Link
@@ -50,27 +88,23 @@ export function ShowCard({ show }: Props) {
             {show.listRank}
           </span>
         ) : null}
-        {owned ? (
-          <span
-            className="absolute right-2 top-2 drop-shadow-[0_1px_2px_rgba(0,0,0,0.85)]"
-            title="Owned"
-            aria-label="Owned"
-          >
-            <svg
-              viewBox="0 0 24 24"
-              className="h-6 w-6 fill-amber-300"
-              aria-hidden="true"
-            >
-              <path d="M12 2.5 14.94 8.4l6.56.95-4.75 4.63 1.12 6.54L12 17.77 6.13 20.52l1.12-6.54L2.5 9.35l6.56-.95L12 2.5Z" />
-            </svg>
-          </span>
-        ) : null}
+        <OwnStar own={show.own} />
       </div>
       <div className="space-y-1 p-3">
         <h3 className="line-clamp-2 text-sm font-medium text-white">
           {show.name}
           <span className="text-zinc-400">&nbsp;({year || '—'})</span>
         </h3>
+        {show.status || show.progress ? (
+          <p className="text-xs text-zinc-400">
+            {[
+              show.status ? initCaps(show.status) : null,
+              show.status?.trim().toLowerCase() === 'watched' ? null : show.progress,
+            ]
+              .filter(Boolean)
+              .join(' ····· ')}
+          </p>
+        ) : null}
         <p className="text-xs text-zinc-400">
           {[
             show.rating != null ? `DK ${formatPersonalScore(show.rating)}` : null,
@@ -100,6 +134,8 @@ export function ShowGrid({
       catalogTitle?: string
       cdnPoster?: string
       note?: string
+      status?: string
+      progress?: string
     }
   >
 }) {

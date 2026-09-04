@@ -27,6 +27,7 @@ export type PersonalShow = {
   score?: number
   status?: string
   own?: string
+  progress?: string
   totalSeasons?: string
   totalEpisodes?: string
   poster?: string

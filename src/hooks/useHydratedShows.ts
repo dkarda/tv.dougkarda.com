@@ -40,6 +40,8 @@ export function useHydratedShows(
             catalogTitle: entry.Title,
             cdnPoster: catalogCdnPosterUrl(entry) ?? undefined,
             note: entry.note?.trim() || undefined,
+            status: entry.status?.trim() || undefined,
+            progress: entry.progress?.trim() || undefined,
           }
         : undefined,
       isPending: query?.status === 'pending',
