@@ -1,6 +1,12 @@
 import { useQueries } from '@tanstack/react-query'
-import { catalogCdnPosterUrl, catalogYear, listRankFor, type PersonalShow } from '../api/catalog'
-import { findShowByImdbId } from '../api/tmdb'
+import {
+  catalogCdnPosterUrl,
+  catalogYear,
+  hasCatalogLookupId,
+  listRankFor,
+  type PersonalShow,
+} from '../api/catalog'
+import { catalogShowQueryKey, hydrateCatalogShow } from '../api/tmdb'
 
 export function useHydratedShows(
   entries: PersonalShow[],
@@ -9,9 +15,9 @@ export function useHydratedShows(
 ) {
   const results = useQueries({
     queries: entries.map((entry) => ({
-      queryKey: ['tmdb-find-tv', entry.imdbID],
-      queryFn: () => findShowByImdbId(entry.imdbID as string),
-      enabled: enabled && Boolean(entry.imdbID),
+      queryKey: catalogShowQueryKey(entry),
+      queryFn: () => hydrateCatalogShow(entry),
+      enabled: enabled && hasCatalogLookupId(entry),
     })),
   })
 
@@ -33,6 +39,7 @@ export function useHydratedShows(
             listRank,
             catalogTitle: entry.Title,
             cdnPoster: catalogCdnPosterUrl(entry) ?? undefined,
+            note: entry.note?.trim() || undefined,
           }
         : undefined,
       isPending: query?.status === 'pending',

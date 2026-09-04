@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { catalogEntryKey, type PersonalShow } from '../api/catalog'
 import { queryClient } from '../api/query'
-import { findShowByImdbId } from '../api/tmdb'
+import { catalogShowQueryKey, hydrateCatalogShow } from '../api/tmdb'
 
 export function useTmdbGenreMatchIds(shows: PersonalShow[], genreId: string) {
   const [matchIds, setMatchIds] = useState<Set<string>>(() => new Set())
@@ -25,11 +25,10 @@ export function useTmdbGenreMatchIds(shows: PersonalShow[], genreId: string) {
       for (let index = 0; index < shows.length; index += 1) {
         if (cancelled) return
         const entry = shows[index]
-        const imdbID = entry?.imdbID
-        if (imdbID) {
+        if (entry) {
           const show = await queryClient.fetchQuery({
-            queryKey: ['tmdb-find-tv', imdbID],
-            queryFn: () => findShowByImdbId(imdbID),
+            queryKey: catalogShowQueryKey(entry),
+            queryFn: () => hydrateCatalogShow(entry),
           })
           if (show?.genre_ids?.includes(wanted)) matches.add(catalogEntryKey(entry))
         }

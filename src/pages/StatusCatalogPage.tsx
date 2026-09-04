@@ -205,15 +205,3 @@ export function WatchlistPage() {
     />
   )
 }
-
-export function StoppedPage() {
-  return (
-    <StatusCatalogPage
-      status="stopped"
-      title="Stopped"
-      description="Shows you started and then stopped."
-      emptyTitle="Nothing stopped"
-      emptyBody="Nothing in the catalog is marked stopped yet."
-    />
-  )
-}

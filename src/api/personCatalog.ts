@@ -1,6 +1,12 @@
-import { catalogEntryKey, normalizeTitle, type PersonalShow } from './catalog'
+import {
+  catalogEntryKey,
+  catalogImdbId,
+  catalogTmdbId,
+  normalizeTitle,
+  type PersonalShow,
+} from './catalog'
 import { queryClient } from './query'
-import { findShowByImdbId, personCreditIndex } from './tmdb'
+import { catalogShowQueryKey, hydrateCatalogShow, personCreditIndex } from './tmdb'
 
 function creditMatchesCatalogTitle(titleKey: string, creditTitles: Set<string>) {
   if (creditTitles.has(titleKey)) return true
@@ -20,12 +26,19 @@ export async function catalogKeysForPerson(query: string, shows: PersonalShow[])
   const matched: string[] = []
 
   for (const show of shows) {
-    const imdbID = show.imdbID
     const titleKey = normalizeTitle(show.Title ?? '')
-    if (!imdbID || !titleKey || !creditMatchesCatalogTitle(titleKey, titles)) continue
+    if (!titleKey || !creditMatchesCatalogTitle(titleKey, titles)) continue
+
+    const knownTmdb = catalogTmdbId(show)
+    if (knownTmdb && tmdbIds.has(Number(knownTmdb))) {
+      matched.push(catalogEntryKey(show))
+      continue
+    }
+
+    if (!catalogImdbId(show)) continue
     const found = await queryClient.fetchQuery({
-      queryKey: ['tmdb-find-tv', imdbID],
-      queryFn: () => findShowByImdbId(imdbID),
+      queryKey: catalogShowQueryKey(show),
+      queryFn: () => hydrateCatalogShow(show),
     })
     if (found && tmdbIds.has(found.id)) matched.push(catalogEntryKey(show))
   }

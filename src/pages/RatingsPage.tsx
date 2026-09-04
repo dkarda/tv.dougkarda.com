@@ -37,9 +37,7 @@ export function RatingsPage() {
 
   const shows = useMemo(
     () =>
-      (catalogQuery.data ?? EMPTY_SHOWS).filter(
-        (show) => show.status !== 'stopped' && show.status !== 'towatch',
-      ),
+      (catalogQuery.data ?? EMPTY_SHOWS).filter((show) => show.status !== 'towatch'),
     [catalogQuery.data],
   )
   const options = useMemo(() => catalogFilterOptions(shows), [shows])
@@ -195,7 +193,7 @@ export function RatingsPage() {
       {catalogQuery.isError ? <ErrorMessage error={catalogQuery.error} /> : null}
       {catalogQuery.isSuccess && shows.length === 0 ? (
         <EmptyState title="No titles yet">
-          <p>Could not find catalog entries with a title and IMDb ID.</p>
+          <p>Could not find catalog entries with a title and an IMDb or TMDB id.</p>
         </EmptyState>
       ) : null}
       {catalogQuery.isSuccess && shows.length > 0 && visible.length === 0 && genreScan.scanning ? (

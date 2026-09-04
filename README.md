@@ -1,6 +1,6 @@
 # tv.dougkarda.com
 
-Personal TV site: search and filter TMDB shows, plus your ratings, stats, unwatched list, and stopped shows from your catalog JSON.
+Personal TV site: search and filter TMDB shows, plus your ratings, stats, and unwatched list from your catalog JSON.
 
 ## Stack
 

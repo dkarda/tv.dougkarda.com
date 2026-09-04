@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query'
 import { Link, useLocation, useParams } from 'react-router-dom'
-import { catalogCdnPosterUrl, catalogCount, catalogYear, formatPersonalScore, normalizeTitle } from '../api/catalog'
+import { catalogCdnPosterUrl, catalogCount, catalogImdbId, catalogTmdbId, catalogYear, formatPersonalScore, normalizeTitle } from '../api/catalog'
 import { getShow, posterUrl, tmdbShowUrl, youtubeTrailer, yearFromDate } from '../api/tmdb'
 import { EmptyState, ErrorMessage, Spinner } from '../components/Status'
 import { usePersonalCatalog } from '../hooks/usePersonalCatalog'
@@ -12,7 +12,6 @@ const BACK_LABELS: Record<string, string> = {
   '/ratings': 'Ratings',
   '/stats': 'Stats',
   '/watchlist': 'Watchlist',
-  '/stopped': 'Stopped',
 }
 
 function backLink(from: unknown) {
@@ -62,7 +61,9 @@ export function ShowPage() {
   const show = showQuery.data
   const imdbId = show.external_ids?.imdb_id
   const yours = catalogQuery.data?.find((entry) => {
-    if (entry.imdbID !== imdbId) return false
+    const byImdb = Boolean(imdbId && catalogImdbId(entry) === imdbId)
+    const byTmdb = catalogTmdbId(entry) === String(show.id)
+    if (!byImdb && !byTmdb) return false
     if (!catalogTitle) return true
     return normalizeTitle(entry.Title ?? '') === normalizeTitle(catalogTitle)
   })
@@ -128,6 +129,9 @@ export function ShowPage() {
             </div>
           ) : null}
         </dl>
+        {yours?.note?.trim() ? (
+          <p className="max-w-3xl text-sm leading-7 text-zinc-300">{yours.note.trim()}</p>
+        ) : null}
         <p className="max-w-3xl text-sm leading-7 text-zinc-300">{show.overview}</p>
         {creators ? <p className="text-sm text-zinc-400">Created by: {creators}</p> : null}
         {show.genres?.length ? (

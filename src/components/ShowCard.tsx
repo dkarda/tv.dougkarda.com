@@ -9,6 +9,7 @@ type Props = {
     listRank?: number
     catalogTitle?: string
     cdnPoster?: string
+    note?: string
   }
 }
 
@@ -66,18 +67,23 @@ export function ShowCard({ show }: Props) {
         ) : null}
       </div>
       <div className="space-y-1 p-3">
-        <h3 className="line-clamp-2 text-sm font-medium text-white">{show.name}</h3>
-        <p className="text-xs text-zinc-400">{year || '—'}</p>
+        <h3 className="line-clamp-2 text-sm font-medium text-white">
+          {show.name}
+          <span className="text-zinc-400">&nbsp;({year || '—'})</span>
+        </h3>
         <p className="text-xs text-zinc-400">
           {[
-            show.rating != null ? `DK score ${formatPersonalScore(show.rating)}` : null,
+            show.rating != null ? `DK ${formatPersonalScore(show.rating)}` : null,
             Number.isFinite(show.vote_average)
-              ? `TMDB score ${show.vote_average.toFixed(1)}`
+              ? `TMDB ${show.vote_average.toFixed(1)}`
               : null,
           ]
             .filter(Boolean)
-            .join(' ··· ')}
+            .join(' ····· ')}
         </p>
+        {show.note ? (
+          <p className="text-xs text-zinc-400">{show.note}</p>
+        ) : null}
       </div>
     </Link>
   )
@@ -93,6 +99,7 @@ export function ShowGrid({
       listRank?: number
       catalogTitle?: string
       cdnPoster?: string
+      note?: string
     }
   >
 }) {

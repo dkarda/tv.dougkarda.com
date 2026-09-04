@@ -14,6 +14,7 @@ export const SHOW_PAGE_SIZE = 24
 export const TMDB_FIND_CONCURRENCY = 4
 
 export type PersonalShow = {
+  note?: string
   Title?: string
   Year?: string
   Rated?: string
@@ -22,6 +23,7 @@ export type PersonalShow = {
   Writer?: string
   Actors?: string
   imdbID?: string
+  tmdbID?: string
   score?: number
   status?: string
   own?: string
@@ -44,14 +46,29 @@ export async function fetchPersonalCatalog(): Promise<PersonalShow[]> {
   return data as PersonalShow[]
 }
 
+export function catalogImdbId(show: Pick<PersonalShow, 'imdbID'>): string | undefined {
+  const id = show.imdbID?.trim()
+  if (!id || id === 'N/A' || !id.startsWith('tt')) return undefined
+  return id
+}
+
+export function catalogTmdbId(show: Pick<PersonalShow, 'tmdbID'>): string | undefined {
+  const id = show.tmdbID?.trim()
+  if (!id || id === 'N/A' || !/^\d+$/.test(id)) return undefined
+  return id
+}
+
+export function hasCatalogLookupId(show: PersonalShow) {
+  return Boolean(catalogImdbId(show) || catalogTmdbId(show))
+}
+
 export function pickTestCatalogShows(catalog: PersonalShow[]): PersonalShow[] {
   return catalog
     .filter(
       (show) =>
         typeof show.Title === 'string' &&
         show.Title.trim().length > 0 &&
-        typeof show.imdbID === 'string' &&
-        show.imdbID.startsWith('tt'),
+        hasCatalogLookupId(show),
     )
     .slice(0, PERSONAL_SHOW_LIMIT)
 }
@@ -106,8 +123,11 @@ export function normalizeTitle(title: string) {
 }
 
 /** Anthology seasons often share one IMDb id; title keeps the row unique. */
-export function catalogEntryKey(show: Pick<PersonalShow, 'Title' | 'imdbID'>) {
-  return `${show.imdbID ?? ''}::${normalizeTitle(show.Title ?? '')}`
+export function catalogEntryKey(show: Pick<PersonalShow, 'Title' | 'imdbID' | 'tmdbID'>) {
+  const imdb = catalogImdbId(show)
+  const tmdb = catalogTmdbId(show)
+  const id = imdb ?? (tmdb != null ? `tmdb:${tmdb}` : '')
+  return `${id}::${normalizeTitle(show.Title ?? '')}`
 }
 
 export function matchesTextQuery(show: PersonalShow, query: string) {
@@ -209,15 +229,15 @@ export function filterCatalog(shows: PersonalShow[], filters: CatalogFilters) {
   return sortCatalog(filtered, filters)
 }
 
-function sortYear(show: PersonalShow, airYearByImdb?: Map<string, string>) {
-  const fromTmdb = show.imdbID ? airYearByImdb?.get(show.imdbID) : undefined
+function sortYear(show: PersonalShow, airYearByKey?: Map<string, string>) {
+  const fromTmdb = airYearByKey?.get(catalogEntryKey(show))
   return Number(fromTmdb || catalogYear(show) || 0)
 }
 
 export function sortCatalog(
   shows: PersonalShow[],
   filters: CatalogFilters,
-  airYearByImdb?: Map<string, string>,
+  airYearByKey?: Map<string, string>,
 ) {
   const sorted = [...shows]
   if (filters.toplist) {
@@ -233,13 +253,13 @@ export function sortCatalog(
   } else if (filters.sort === 'year-desc') {
     sorted.sort(
       (a, b) =>
-        sortYear(b, airYearByImdb) - sortYear(a, airYearByImdb) ||
+        sortYear(b, airYearByKey) - sortYear(a, airYearByKey) ||
         (a.Title ?? '').localeCompare(b.Title ?? ''),
     )
   } else if (filters.sort === 'year-asc') {
     sorted.sort((a, b) => {
-      const yearA = sortYear(a, airYearByImdb) || Infinity
-      const yearB = sortYear(b, airYearByImdb) || Infinity
+      const yearA =         sortYear(a, airYearByKey) || Infinity
+      const yearB = sortYear(b, airYearByKey) || Infinity
       return yearA - yearB || (a.Title ?? '').localeCompare(b.Title ?? '')
     })
   } else {
@@ -316,7 +336,7 @@ export function pickDailySuggestions(
     (show) =>
       typeof show.score === 'number' &&
       show.score >= DAILY_SUGGESTION_MIN_SCORE &&
-      typeof show.imdbID === 'string',
+      hasCatalogLookupId(show),
   )
   if (pool.length === 0) return []
 

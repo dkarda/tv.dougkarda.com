@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
-import type { PersonalShow } from '../api/catalog'
+import { catalogEntryKey, type PersonalShow } from '../api/catalog'
 import { queryClient } from '../api/query'
-import { findShowByImdbId, yearFromDate } from '../api/tmdb'
+import { catalogShowQueryKey, hydrateCatalogShow, yearFromDate } from '../api/tmdb'
 
 export function useTmdbAirYears(shows: PersonalShow[], enabled: boolean) {
   const [years, setYears] = useState<Map<string, string>>(() => new Map())
@@ -22,14 +22,14 @@ export function useTmdbAirYears(shows: PersonalShow[], enabled: boolean) {
     void (async () => {
       for (let index = 0; index < shows.length; index += 1) {
         if (cancelled) return
-        const imdbID = shows[index]?.imdbID
-        if (imdbID) {
+        const entry = shows[index]
+        if (entry) {
           const show = await queryClient.fetchQuery({
-            queryKey: ['tmdb-find-tv', imdbID],
-            queryFn: () => findShowByImdbId(imdbID),
+            queryKey: catalogShowQueryKey(entry),
+            queryFn: () => hydrateCatalogShow(entry),
           })
           const year = yearFromDate(show?.first_air_date)
-          if (year) next.set(imdbID, year)
+          if (year) next.set(catalogEntryKey(entry), year)
         }
         if (index % 8 === 0 || index === shows.length - 1) {
           setYears(new Map(next))

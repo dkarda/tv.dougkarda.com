@@ -51,7 +51,7 @@ export function HomePage() {
       {catalogQuery.isSuccess && suggestions.length === 0 ? (
         <EmptyState title="No suggestions yet">
           <p>
-            Need at least one title scored {DAILY_SUGGESTION_MIN_SCORE}+ with an IMDb id.
+            Need at least one title scored {DAILY_SUGGESTION_MIN_SCORE}+ with an IMDb or TMDB id.
           </p>
         </EmptyState>
       ) : null}

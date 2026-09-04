@@ -1,5 +1,11 @@
 import { tmdbEnv } from '../lib/config'
-import { normalizeTitle, TMDB_FIND_CONCURRENCY } from './catalog'
+import {
+  catalogImdbId,
+  catalogTmdbId,
+  normalizeTitle,
+  TMDB_FIND_CONCURRENCY,
+  type PersonalShow,
+} from './catalog'
 
 const API_BASE = 'https://api.themoviedb.org/3'
 const IMAGE_BASE = 'https://image.tmdb.org/t/p'
@@ -169,6 +175,43 @@ export async function findShowByImdbId(imdbId: string) {
     })
     return data.tv_results[0] ?? null
   })
+}
+
+export async function getShowByTmdbId(id: string): Promise<Show | null> {
+  return withFindSlot(async () => {
+    try {
+      const data = await tmdbFetch<ShowDetails>(`/tv/${id}`, { language: 'en-US' })
+      return {
+        id: data.id,
+        name: data.name,
+        overview: data.overview,
+        poster_path: data.poster_path,
+        backdrop_path: data.backdrop_path,
+        first_air_date: data.first_air_date,
+        vote_average: data.vote_average,
+        vote_count: data.vote_count,
+        genre_ids: data.genre_ids ?? data.genres?.map((genre) => genre.id),
+        popularity: data.popularity,
+      }
+    } catch (error) {
+      if (error instanceof TmdbError && error.status === 404) return null
+      throw error
+    }
+  })
+}
+
+export function catalogShowQueryKey(entry: PersonalShow) {
+  const imdb = catalogImdbId(entry)
+  if (imdb) return ['tmdb-find-tv', imdb] as const
+  return ['tmdb-tv', catalogTmdbId(entry) ?? ''] as const
+}
+
+export function hydrateCatalogShow(entry: PersonalShow) {
+  const imdb = catalogImdbId(entry)
+  if (imdb) return findShowByImdbId(imdb)
+  const tmdb = catalogTmdbId(entry)
+  if (tmdb) return getShowByTmdbId(tmdb)
+  return Promise.resolve(null)
 }
 
 type PersonCredit = {

@@ -5,7 +5,7 @@ import { HomePage } from './pages/HomePage'
 import { RatingsPage } from './pages/RatingsPage'
 import { ShowPage } from './pages/ShowPage'
 import { StatsPage } from './pages/StatsPage'
-import { StoppedPage, WatchlistPage } from './pages/StatusCatalogPage'
+import { WatchlistPage } from './pages/StatusCatalogPage'
 
 export default function App() {
   return (
@@ -17,7 +17,7 @@ export default function App() {
           <Route path="ratings" element={<RatingsPage />} />
           <Route path="stats" element={<StatsPage />} />
           <Route path="watchlist" element={<WatchlistPage />} />
-          <Route path="stopped" element={<StoppedPage />} />
+          <Route path="stopped" element={<Navigate to="/ratings" replace />} />
           <Route path="show/:id" element={<ShowPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
