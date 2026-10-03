@@ -1,6 +1,6 @@
 import { useQueries } from '@tanstack/react-query'
 import {
-  catalogCdnPosterUrl,
+  catalogPosterUrl,
   catalogYear,
   hasCatalogLookupId,
   listRankFor,
@@ -38,7 +38,7 @@ export function useHydratedShows(
             own: entry.own,
             listRank,
             catalogTitle: entry.Title,
-            cdnPoster: catalogCdnPosterUrl(entry) ?? undefined,
+            catalogPoster: catalogPosterUrl(entry) ?? undefined,
             note: entry.note?.trim() || undefined,
             status: entry.status?.trim() || undefined,
             progress: entry.progress?.trim() || undefined,

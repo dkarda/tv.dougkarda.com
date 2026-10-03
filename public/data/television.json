@@ -1,0 +1,3870 @@
+[
+  {
+    "Title": "La Femme Nikita",
+    "imdbID": "tt0118379",
+    "status": "watched",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Highlander",
+    "imdbID": "tt0103442",
+    "status": "watched",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "The X-Files",
+    "imdbID": "tt0106179",
+    "status": "watched",
+    "own": "y",
+    "score": 10
+  },
+  {
+    "Title": "Farscape",
+    "imdbID": "tt0187636",
+    "status": "watched",
+    "own": "y",
+    "score": 10
+  },
+  {
+    "Title": "Farscape: The Peacekeeper Wars",
+    "imdbID": "tt0387736",
+    "status": "watched",
+    "score": 10
+  },
+  {
+    "Title": "Agent Carter",
+    "imdbID": "tt3475734",
+    "collections": [{ "collection": "Marvel Comics" }],
+    "status": "watched",
+    "score": 6
+  },
+  {
+    "Title": "Cheers",
+    "imdbID": "tt0083399",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 1 }],
+    "status": "watched",
+    "own": "y",
+    "score": 10
+  },
+  {
+    "Title": "Jessica Jones",
+    "imdbID": "tt2357547",
+    "collections": [{ "collection": "Marvel Comics" }],
+    "status": "watched",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "Orphan Black",
+    "imdbID": "tt2234222",
+    "status": "watched",
+    "own": "n",
+    "score": 9
+  },
+  {
+    "Title": "Game of Thrones",
+    "imdbID": "tt0944947",
+    "status": "watched",
+    "own": "y",
+    "score": 10
+  },
+  {
+    "Title": "Luke Cage",
+    "imdbID": "tt3322314",
+    "collections": [{ "collection": "Marvel Comics" }],
+    "status": "watched",
+    "own": "n",
+    "score": 6
+  },
+  {
+    "Title": "Agents of S.H.I.E.L.D.",
+    "imdbID": "tt2364582",
+    "collections": [{ "collection": "Marvel Comics" }],
+    "status": "watched",
+    "progress": "S7",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "Daredevil",
+    "imdbID": "tt3322312",
+    "collections": [{ "collection": "Marvel Comics" }],
+    "status": "watched",
+    "score": 8
+  },
+  {
+    "Title": "Gotham",
+    "imdbID": "tt3749900",
+    "collections": [{ "collection": "DC Comics" }],
+    "status": "watched",
+    "score": 8
+  },
+  {
+    "Title": "The Flash",
+    "imdbID": "tt3107288",
+    "collections": [{ "collection": "DC Comics" }],
+    "status": "stopped",
+    "progress": "S6",
+    "note": "This one seemed to have jumped the shark and couldn't rebound for me.",
+    "score": 6
+  },
+  {
+    "Title": "Arrow",
+    "imdbID": "tt2193021",
+    "collections": [{ "collection": "DC Comics" }],
+    "status": "watched",
+    "progress": "S8",
+    "score": 7
+  },
+  {
+    "Title": "DC's Legends of Tomorrow",
+    "imdbID": "tt4532368",
+    "collections": [{ "collection": "DC Comics" }],
+    "status": "stopped",
+    "progress": "S5",
+    "note": "Later episodes became more silly and less engaging for me.",
+    "score": 6
+  },
+  {
+    "Title": "Supergirl",
+    "imdbID": "tt4016454",
+    "collections": [{ "collection": "DC Comics" }],
+    "status": "stopped",
+    "progress": "S5",
+    "note": "Show started spending more time catering to public opinion than focusing on a storyline.",
+    "score": 6
+  },
+  {
+    "Title": "Constantine",
+    "imdbID": "tt3489184",
+    "collections": [{ "collection": "DC Comics" }],
+    "status": "watched",
+    "score": 7
+  },
+  {
+    "Title": "Modern Family",
+    "imdbID": "tt1442437",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 3 }],
+    "status": "watched",
+    "own": "y",
+    "score": 10
+  },
+  {
+    "Title": "The Simpsons",
+    "Ratings": [
+      { "Value": "8.7/10" },
+      { "Source": "Rotten Tomatoes", "Value": "85%" }
+    ],
+    "imdbID": "tt0096697",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 6 }],
+    "status": "stopped",
+    "progress": "S29",
+    "note": "Show got over-the-top political and after 29 seasons, I felt fine calling it a day.",
+    "own": "partial",
+    "score": 10
+  },
+  {
+    "Title": "Absolutely Fabulous",
+    "imdbID": "tt0105929",
+    "status": "watched",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Arrested Development",
+    "imdbID": "tt0367279",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 12 }],
+    "status": "watched",
+    "own": "partial",
+    "note": "don't have season 5",
+    "score": 9
+  },
+  {
+    "Title": "Monty Python's Flying Circus",
+    "imdbID": "tt0063929",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 14 }],
+    "status": "watched",
+    "own": "y",
+    "score": 9
+  },
+  {
+    "Title": "Fawlty Towers",
+    "imdbID": "tt0072500",
+    "status": "watched",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Firefly",
+    "imdbID": "tt0303461",
+    "status": "watched",
+    "own": "y",
+    "score": 9
+  },
+  {
+    "Title": "Justified",
+    "imdbID": "tt1489428",
+    "status": "watched",
+    "score": 8
+  },
+  {
+    "Title": "Burn Notice",
+    "imdbID": "tt0810788",
+    "status": "watched",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Star Wars: The Bad Batch",
+    "imdbID": "tt12708542",
+    "collections": [{ "collection": "Star Wars" }],
+    "status": "watched",
+    "dateWatched": "2024-05-31",
+    "progress": "S4",
+    "own": "Disney",
+    "score": 8
+  },
+  {
+    "Title": "Chuck",
+    "imdbID": "tt0934814",
+    "status": "watched",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Dexter",
+    "imdbID": "tt0773262",
+    "status": "watched",
+    "own": "y",
+    "score": 9
+  },
+  {
+    "Title": "The Wire",
+    "imdbID": "tt0306414",
+    "status": "watched",
+    "own": "n",
+    "score": 9
+  },
+  {
+    "Title": "The Catch",
+    "imdbID": "tt4396862",
+    "status": "watched",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "The Killing",
+    "imdbID": "tt1637727",
+    "status": "watched",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "The Fall",
+    "imdbID": "tt2294189",
+    "status": "watched",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "Family Guy",
+    "imdbID": "tt0182576",
+    "status": "stopped",
+    "progress": "S18 E19",
+    "note": "In became increasingly repetitive with jokes that would repeat something for what felt like 30 seconds straight.",
+    "own": "partial",
+    "score": 8
+  },
+  {
+    "Title": "Law & Order: Special Victims Unit",
+    "imdbID": "tt0203259",
+    "status": "stopped",
+    "progress": "S14",
+    "note": "Life got in the way. Show got somewhat repetitive for me. May eventually pick it back up.",
+    "score": 7
+  },
+  {
+    "Title": "Breaking Bad",
+    "imdbID": "tt0903747",
+    "status": "watched",
+    "own": "y",
+    "score": 9
+  },
+  {
+    "Title": "Band of Brothers",
+    "imdbID": "tt0185906",
+    "status": "watched",
+    "own": "y",
+    "score": 10
+  },
+  {
+    "Title": "MythBusters",
+    "imdbID": "tt0383126",
+    "status": "watching",
+    "progress": "S14",
+    "own": "n",
+    "score": 10
+  },
+  {
+    "Title": "Freakazoid!",
+    "imdbID": "tt0111970",
+    "status": "watched",
+    "progress": "S2",
+    "own": "y",
+    "score": 6
+  },
+  {
+    "Title": "Bosch",
+    "imdbID": "tt3502248",
+    "status": "watched",
+    "progress": "S7",
+    "own": "n",
+    "score": 8
+  },
+  {
+    "Title": "Sons of Anarchy",
+    "imdbID": "tt1124373",
+    "status": "watched",
+    "own": "n",
+    "score": 8
+  },
+  {
+    "Title": "Extras",
+    "imdbID": "tt0445114",
+    "status": "watched",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Gotham Girls",
+    "imdbID": "tt0337763",
+    "status": "watched",
+    "own": "y",
+    "score": 6
+  },
+  {
+    "Title": "House of Cards",
+    "imdbID": "tt1856010",
+    "status": "unwatched",
+    "own": "partial",
+    "score": 0
+  },
+  {
+    "Title": "Narcos",
+    "imdbID": "tt2707408",
+    "status": "unwatched",
+    "own": "n",
+    "score": 0
+  },
+  {
+    "Title": "Ray Donovan",
+    "imdbID": "tt2249007",
+    "status": "towatch",
+    "own": "n",
+    "score": 0
+  },
+  {
+    "Title": "Californication",
+    "imdbID": "tt0904208",
+    "status": "unwatched",
+    "own": "n",
+    "score": 0
+  },
+  {
+    "Title": "Bosom Buddies",
+    "imdbID": "tt0080202",
+    "status": "watched",
+    "progress": "S2",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Preacher",
+    "imdbID": "tt5016504",
+    "status": "watched",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "Vixen",
+    "imdbID": "tt4406248",
+    "status": "watched",
+    "own": "n",
+    "score": 6
+  },
+  {
+    "Title": "Buffy the Vampire Slayer",
+    "imdbID": "tt0118276",
+    "status": "unwatched",
+    "own": "y",
+    "score": 0
+  },
+  {
+    "Title": "Silicon Valley",
+    "imdbID": "tt2575988",
+    "status": "watched",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "The Venture Bros.",
+    "imdbID": "tt0417373",
+    "status": "watched",
+    "progress": "S7",
+    "own": "partial",
+    "score": 7
+  },
+  {
+    "Title": "Stargate SG-1",
+    "imdbID": "tt0118480",
+    "status": "watched",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Stargate: Atlantis",
+    "imdbID": "tt0374455",
+    "status": "towatch",
+    "progress": "S1",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Stargate Universe",
+    "imdbID": "tt1286039",
+    "status": "stopped",
+    "progress": "S2 E2",
+    "note": "I felt the writing wasn't great and some of the acting was lackluster at best.",
+    "score": 5
+  },
+  {
+    "Title": "Stargate Origins",
+    "imdbID": "tt7161862",
+    "status": "watched",
+    "progress": "S1",
+    "own": "y",
+    "score": 3
+  },
+  {
+    "Title": "Doctor Who",
+    "imdbID": "tt0056751",
+    "status": "towatch",
+    "score": 0
+  },
+  {
+    "Title": "Doctor Who",
+    "imdbID": "tt0436992",
+    "status": "towatch",
+    "own": "partial",
+    "score": 0
+  },
+  {
+    "Title": "The Office",
+    "imdbID": "tt0290978",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 19 }],
+    "status": "watched",
+    "progress": "S3",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "The Dukes of Hazzard",
+    "imdbID": "tt0078607",
+    "status": "watched",
+    "score": 8
+  },
+  {
+    "Title": "Taxi",
+    "imdbID": "tt0077089",
+    "status": "watched",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "The Odd Couple",
+    "imdbID": "tt0065329",
+    "status": "watched",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "ER",
+    "imdbID": "tt0108757",
+    "status": "stopped",
+    "progress": "S12",
+    "note": "Life got in the way and choices were made. May return at a later date.",
+    "score": 8
+  },
+  {
+    "Title": "Charmed",
+    "imdbID": "tt0158552",
+    "status": "watched",
+    "score": 7
+  },
+  {
+    "Title": "Dark Angel",
+    "imdbID": "tt0204993",
+    "status": "watched",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Tru Calling",
+    "imdbID": "tt0364817",
+    "status": "watched",
+    "score": 7
+  },
+  {
+    "Title": "Dollhouse",
+    "imdbID": "tt1135300",
+    "status": "watched",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Terminator: The Sarah Connor Chronicles",
+    "imdbID": "tt0851851",
+    "status": "watched",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Xena: Warrior Princess",
+    "imdbID": "tt0112230",
+    "status": "watched",
+    "own": "y",
+    "score": 6
+  },
+  {
+    "Title": "Hercules: The Legendary Journeys",
+    "imdbID": "tt0111999",
+    "status": "watched",
+    "own": "y",
+    "score": 6
+  },
+  {
+    "Title": "All in the Family",
+    "imdbID": "tt0066626",
+    "status": "watched",
+    "own": "partial",
+    "score": 8
+  },
+  {
+    "Title": "Battlestar Galactica",
+    "imdbID": "tt0407362",
+    "status": "watched",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Birds of Prey",
+    "imdbID": "tt0312098",
+    "status": "watched",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Dead Like Me",
+    "imdbID": "tt0348913",
+    "status": "watched",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Deadwood",
+    "imdbID": "tt0348914",
+    "status": "watched",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Frisky Dingo",
+    "imdbID": "tt0865409",
+    "status": "watched",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Harvey Birdman, Attorney at Law",
+    "imdbID": "tt0294097",
+    "status": "watched",
+    "own": "partial",
+    "note": "missing last 3 eps of s4",
+    "score": 7
+  },
+  {
+    "Title": "Home Improvement",
+    "imdbID": "tt0101120",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 23 }],
+    "status": "watched",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Hong Kong Phooey",
+    "imdbID": "tt0070996",
+    "status": "watched",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Johnny Bravo",
+    "imdbID": "tt0118360",
+    "status": "watched",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "An Idiot Abroad",
+    "imdbID": "tt1702042",
+    "status": "towatch",
+    "score": 0
+  },
+  {
+    "Title": "The Expanse",
+    "imdbID": "tt3230854",
+    "status": "towatch",
+    "score": 0
+  },
+  {
+    "Title": "The Deuce",
+    "imdbID": "tt4998350",
+    "status": "watched",
+    "progress": "S3",
+    "score": 7
+  },
+  {
+    "Title": "Seinfeld",
+    "imdbID": "tt0098904",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 2 }],
+    "status": "watched",
+    "own": "y",
+    "score": 10
+  },
+  {
+    "Title": "M*A*S*H",
+    "imdbID": "tt0068098",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 5 }],
+    "status": "watched",
+    "own": "partial",
+    "score": 10
+  },
+  {
+    "Title": "Hogan's Heroes",
+    "imdbID": "tt0058812",
+    "status": "watched",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "WKRP in Cincinnati",
+    "imdbID": "tt0077097",
+    "status": "watched",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "F Troop",
+    "imdbID": "tt0058800",
+    "status": "watched",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Gilligan's Island",
+    "imdbID": "tt0057751",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 24 }],
+    "status": "watched",
+    "score": 8
+  },
+  {
+    "Title": "I Dream of Jeannie",
+    "imdbID": "tt0058815",
+    "status": "watched",
+    "score": 7
+  },
+  {
+    "Title": "The Brady Bunch",
+    "imdbID": "tt0063878",
+    "status": "watched",
+    "score": 8
+  },
+  {
+    "Title": "The Beverly Hillbillies",
+    "imdbID": "tt0055662",
+    "status": "watched",
+    "score": 7
+  },
+  {
+    "Title": "Bewitched",
+    "imdbID": "tt0057733",
+    "status": "watched",
+    "score": 7
+  },
+  {
+    "Title": "The Munsters",
+    "imdbID": "tt0057773",
+    "status": "watched",
+    "score": 7
+  },
+  {
+    "Title": "The Addams Family",
+    "imdbID": "tt0057729",
+    "status": "watched",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "Animaniacs",
+    "imdbID": "tt0105941",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 18 }],
+    "status": "watched",
+    "progress": "S5",
+    "own": "partial",
+    "score": 8
+  },
+  {
+    "Title": "The Sopranos",
+    "imdbID": "tt0141842",
+    "status": "watched",
+    "progress": "S6",
+    "own": "Max",
+    "score": 8
+  },
+  {
+    "Title": "Pinky and the Brain",
+    "imdbID": "tt0112123",
+    "status": "watched",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "Tiny Toon Adventures",
+    "imdbID": "tt0098929",
+    "status": "watched",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Eastbound & Down",
+    "imdbID": "tt0866442",
+    "status": "watched",
+    "score": 7
+  },
+  {
+    "Title": "Oz",
+    "imdbID": "tt0118421",
+    "status": "watched",
+    "own": "y",
+    "score": 9
+  },
+  {
+    "Title": "Lost",
+    "Ratings": [
+      { "Value": "8.3/10" },
+      { "Source": "Rotten Tomatoes", "Value": "80%" }
+    ],
+    "imdbID": "tt0411008",
+    "status": "watched",
+    "score": 8
+  },
+  {
+    "Title": "Girls on Top",
+    "imdbID": "tt0088524",
+    "status": "stopped",
+    "progress": "S2 E1",
+    "note": "Some great comedians here, but just didn't land with me to keep going.",
+    "own": "y",
+    "score": 5
+  },
+  {
+    "Title": "The Muppet Show",
+    "imdbID": "tt0074028",
+    "status": "watched",
+    "own": "partial",
+    "score": 8
+  },
+  {
+    "Title": "Beavis and Butt-Head",
+    "imdbID": "tt0105950",
+    "status": "watched",
+    "score": 8
+  },
+  {
+    "Title": "House",
+    "imdbID": "tt0412142",
+    "status": "watched",
+    "score": 9
+  },
+  {
+    "Title": "Highlander: The Animated Series",
+    "imdbID": "tt0147773",
+    "status": "towatch",
+    "own": "y",
+    "score": 0
+  },
+  {
+    "Title": "Highlander: The Raven",
+    "imdbID": "tt0144714",
+    "status": "watched",
+    "own": "y",
+    "score": 6
+  },
+  {
+    "Title": "Get Smart",
+    "imdbID": "tt0058805",
+    "status": "watched",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Flight of the Conchords",
+    "imdbID": "tt0863046",
+    "status": "watched",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Coupling",
+    "imdbID": "tt0237123",
+    "status": "unwatched",
+    "progress": "",
+    "own": "y",
+    "score": 0
+  },
+  {
+    "Title": "The Benny Hill Show",
+    "imdbID": "tt0063869",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 17 }],
+    "status": "watched",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Battlestar Galactica: Blood & Chrome",
+    "imdbID": "tt1704292",
+    "status": "watched",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "The Pacific",
+    "imdbID": "tt0374463",
+    "status": "watched",
+    "progress": "S1",
+    "score": 8
+  },
+  {
+    "Title": "Ash vs Evil Dead",
+    "imdbID": "tt4189022",
+    "status": "watched",
+    "progress": "S3",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title":"X-Men",
+    "imdbID":"tt0103584",
+    "collections": [{ "collection": "Marvel Comics" }],
+    "status": "watched",
+    "own": "y",
+    "score": 9
+  },
+  {
+    "Title":"Witchblade",
+    "imdbID":"tt0274298",
+    "status": "watched",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title":"Time Squad",
+    "imdbID":"tt0291672",
+    "status": "watched",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Three's Company",
+    "imdbID": "tt0075596",
+    "status": "watched",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Three Sheets",
+    "imdbID": "tt0818464",
+    "status": "watched",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "The Young Ones",
+    "imdbID": "tt0083505",
+    "status": "watched",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "The Night Of",
+    "imdbID": "tt2401256",
+    "status": "watched",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Tenacious D: The Complete Master Works",
+    "imdbID": "tt0180241",
+    "status": "watched",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Spider-Man and His Amazing Friends",
+    "imdbID": "tt0083481",
+    "collections": [{ "collection": "Marvel Comics" }],
+    "status": "watched",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "Spider-Man: The Animated Series",
+    "imdbID": "tt0112175",
+    "collections": [{ "collection": "Marvel Comics" }],
+    "status": "watched",
+    "own": "y",
+    "score": 9
+  },
+  {
+    "Title": "Spider-Man",
+    "imdbID": "tt0081938",
+    "collections": [{ "collection": "Marvel Comics" }],
+    "status": "watched",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "Batman: The Animated Series",
+    "imdbID": "tt0103359",
+    "collections": [{ "collection": "DC Comics" }],
+    "status": "watched",
+    "own": "y",
+    "score": 9
+  },
+  {
+    "Title": "Fantastic Four",
+    "imdbID": "tt0061250",
+    "collections": [{ "collection": "Marvel Comics" }],
+    "status": "watched",
+    "score": 7
+  },
+  {
+    "Title": "Todd McFarlane's Spawn",
+    "imdbID": "tt0118475",
+    "status": "watched",
+    "own": "y",
+    "score": 9
+  },
+  {
+    "Title": "Sealab 2021",
+    "imdbID": "tt0278877",
+    "status": "watched",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Married... with Children",
+    "imdbID": "tt0092400",
+    "status": "watched",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "The Man in the High Castle",
+    "imdbID": "tt1740299",
+    "status": "stopped",
+    "progress": "S2",
+    "note": "Can't remember why I stopped. Hmmmmm. May return at a later date.",
+    "score": 6
+  },
+  {
+    "Title": "The Tick",
+    "imdbID": "tt0112196",
+    "status": "watched",
+    "score": 7
+  },
+  {
+    "Title": "Fleabag",
+    "Writer": "Phoebe Waller-Bridge",
+    "imdbID": "tt5687612",
+    "status": "watched",
+    "score": 7
+  },
+  {
+    "Title": "Charlie's Angels",
+    "imdbID": "tt0073972",
+    "status": "watched",
+    "score": 7
+  },
+  {
+    "Title": "Tales from the Crypt",
+    "imdbID": "tt0096708",
+    "status": "unwatched",
+    "score": 0
+  },
+  {
+    "Title": "Altered Carbon",
+    "imdbID": "tt2261227",
+    "status": "watched",
+    "progress": "S2",
+    "score": 7
+  },
+  {
+    "Title": "Tiger King",
+    "imdbID": "tt11823076",
+    "status": "watched",
+    "score": 7
+  },
+  {
+    "Title": "Black Summer",
+    "imdbID": "tt8923854",
+    "status": "stopped",
+    "progress": "S1 E3",
+    "note": "Let me know if I quit too soon, but the writing, directing and or editing was horrible.",
+    "score": 4
+  },
+  {
+    "Title": "Freaks and Geeks",
+    "imdbID": "tt0193676",
+    "status": "watched",
+    "progress": "S1",
+    "own": "Hulu",
+    "score": 7
+  },
+  {
+    "Title": "The Punisher",
+    "imdbID": "tt5675620",
+    "collections": [{ "collection": "Marvel Comics" }],
+    "status": "watched",
+    "score": 8
+  },
+  {
+    "Title": "The End of the F***ing World",
+    "imdbID": "tt6257970",
+    "status": "watched",
+    "score": 7
+  },
+  {
+    "Title": "The Haunting of Hill House",
+    "imdbID": "tt6763664",
+    "status": "watched",
+    "progress": "S1",
+    "score": 10
+  },
+  {
+    "Title": "Doctor Foster: A Woman Scorned",
+    "imdbID": "tt4602768",
+    "status": "watched",
+    "score": 7
+  },
+  {
+    "Title": "Containment",
+    "imdbID": "tt4421578",
+    "status": "watched",
+    "score": 7
+  },
+  {
+    "Title": "Prison Break",
+    "imdbID": "tt0455275",
+    "status": "stopped",
+    "progress": "S3 E3",
+    "note": "It had lots of cheese and questionable, at best, acting. As the storylines regressed, I walked.",
+    "score": 6
+  },
+  {
+    "Title": "Monk",
+    "imdbID": "tt0312172",
+    "status": "watched",
+    "score": 8
+  },
+  {
+    "Title": "Psych",
+    "imdbID": "tt0491738",
+    "status": "watched",
+    "score": 8
+  },
+  {
+    "Title": "Midnight Mass",
+    "imdbID": "tt10574558",
+    "status": "watched",
+    "progress": "S1",
+    "own": "Netflix",
+    "score": 8
+  },
+  {
+    "Title": "Courageous Cat and Minute Mouse",
+    "imdbID": "tt0278180",
+    "status": "watched",
+    "own": "partial",
+    "score": 7
+  },
+  {
+    "Title": "Unbelievable",
+    "imdbID": "tt7909970",
+    "status": "watched",
+    "own": "n",
+    "score": 8
+  },
+  {
+    "Title": "Russian Doll",
+    "imdbID": "tt7520794",
+    "status": "unwatched",
+    "progress": "",
+    "own": "n",
+    "score": 0
+  },
+  {
+    "Title": "Craig Ferguson's Hobo Fabulous",
+    "imdbID": "tt10207430",
+    "status": "watched",
+    "progress": "S1",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "The Big Interview with Dan Rather",
+    "imdbID": "tt3643558",
+    "status": "watching",
+    "progress": "S8",
+    "own": "n",
+    "score": 8
+  },
+  {
+    "Title": "Peep Show",
+    "imdbID": "tt0387764",
+    "status": "towatch",
+    "progress": "",
+    "own": "y",
+    "score": 0
+  },
+  {
+    "Title": "The Lizzie Borden Chronicles",
+    "imdbID": "tt4145760",
+    "status": "watched",
+    "progress": "S1",
+    "own": "y",
+    "score": 0
+  },
+  {
+    "Title": "Bates Motel",
+    "imdbID": "tt2188671",
+    "status": "towatch",
+    "progress": "",
+    "own": "n",
+    "score": 0
+  },
+  {
+    "Title": "Trailer Park Boys",
+    "imdbID": "tt0290988",
+    "status": "watched",
+    "progress": "S12",
+    "own": "partial",
+    "score": 7
+  },
+  {
+    "Title": "High Score",
+    "imdbID": "tt12759400",
+    "status": "watched",
+    "progress": "S1",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "Lovecraft Country",
+    "imdbID": "tt6905686",
+    "status": "watching",
+    "progress": "S1 E2",
+    "own": "n",
+    "score": 0
+  },
+  {
+    "Title": "Reno 911!",
+    "imdbID": "tt0370194",
+    "status": "towatch",
+    "progress": "",
+    "own": "n",
+    "score": 0
+  },
+  {
+    "Title": "Feherty",
+    "imdbID": "tt1962630",
+    "status": "watched",
+    "progress": "S10",
+    "own": "n",
+    "score": 9
+  },
+  {
+    "Title": "Damages",
+    "imdbID": "tt0914387",
+    "status": "watched",
+    "progress": "S5",
+    "own": "n",
+    "score": 8
+  },
+  {
+    "Title": "Fear the Walking Dead: Flight 462",
+    "imdbID": "tt5095238",
+    "collections": [{ "collection": "The Walking Dead" }],
+    "status": "watched",
+    "progress": "S1",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Fear the Walking Dead: Passage",
+    "imdbID": "tt6203010",
+    "collections": [{ "collection": "The Walking Dead" }],
+    "status": "watched",
+    "progress": "S1",
+    "own": "y",
+    "score": 5
+  },
+  {
+    "Title": "Fear the Walking Dead: The Althea Tapes",
+    "imdbID": "tt10708060",
+    "collections": [{ "collection": "The Walking Dead" }],
+    "status": "towatch",
+    "progress": "",
+    "own": "n",
+    "score": 0
+  },
+  {
+    "Title": "The Twilight Zone",
+    "imdbID": "tt0052520",
+    "status": "unwatched",
+    "progress": "",
+    "own": "y",
+    "score": 0
+  },
+  {
+    "Title": "The Twilight Zone",
+    "imdbID": "tt2583620",
+    "status": "unwatched",
+    "progress": "",
+    "own": "partiaL",
+    "score": 0
+  },
+  {
+    "Title": "Better Call Saul",
+    "imdbID": "tt3032476",
+    "status": "unwatched",
+    "progress": "",
+    "own": "partial",
+    "score": 0
+  },
+  {
+    "Title": "The Queen's Gambit",
+    "imdbID": "tt10048342",
+    "status": "watched",
+    "progress": "S1",
+    "own": "n",
+    "score": 8
+  },
+  {
+    "Title": "Big Sky",
+    "imdbID": "tt11794642",
+    "status": "stopped",
+    "progress": "S1 E3",
+    "note": "Over-the-top melodrama that only detracted from the experience.",
+    "own": "Disney",
+    "score": 0
+  },
+  {
+    "Title": "Six",
+    "imdbID": "tt5541338",
+    "status": "watched",
+    "progress": "S2",
+    "own": "n",
+    "score": 8
+  },
+  {
+    "Title": "TURN: Washington's Spies",
+    "imdbID": "tt2543328",
+    "status": "watched",
+    "progress": "S4",
+    "own": "n",
+    "score": 8
+  },
+  {
+    "Title": "Rose Red",
+    "imdbID": "tt0259153",
+    "collections": [{ "collection": "Stephen King" }],
+    "status": "watched",
+    "progress": "S3",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Salem's Lot",
+    "imdbID": "tt0079844",
+    "own": "y",
+    "status": "watched",
+    "score": 7
+  },
+  {
+    "Title": "Dr. Horrible's Sing-Along Blog",
+    "imdbID": "tt1227926",
+    "own": "y",
+    "status": "watched",
+    "score": 8
+  },
+  {
+    "Title": "The Diamond Hunters",
+    "imdbID": "tt0244901",
+    "status": "unwatched",
+    "progress": "",
+    "own": "y",
+    "score": 0
+  },
+  {
+    "Title": "It",
+    "imdbID": "tt0099864",
+    "collections": [{ "collection": "Stephen King" }],
+    "own": "y",
+    "status": "watched",
+    "score": 8
+  },
+  {
+    "Title": "Vikings",
+    "imdbID": "tt2306299",
+    "status": "watched",
+    "progress": "S6",
+    "score": 8
+  },
+  {
+    "Title": "Second Sight",
+    "imdbID": "tt0187489",
+    "status": "unwatched",
+    "progress": "",
+    "own": "y",
+    "score": 0
+  },
+  {
+    "Title": "12 Monkeys",
+    "tmdbID": "60948",
+    "imdbID": "tt3148266",
+    "status": "stopped",
+    "progress": "",
+    "own": "n",
+    "score": 0
+  },
+  {
+    "Title": "Life's Too Short",
+    "imdbID": "tt1641247",
+    "status": "watched",
+    "progress": "S1",
+    "score": 7
+  },
+  {
+    "Title": "The Undoing",
+    "imdbID": "tt8134470",
+    "status": "watched",
+    "progress": "S1",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "Are You Being Served?",
+    "imdbID": "tt0068040",
+    "status": "unwatched",
+    "progress": "",
+    "own": "partial",
+    "score": 0
+  },
+  {
+    "Title": "Da Vinci's Demons",
+    "imdbID": "tt2094262",
+    "status": "unwatched",
+    "progress": "",
+    "own": "y",
+    "score": 0
+  },
+  {
+    "Title": "Danger Mouse",
+    "imdbID": "tt0081848",
+    "status": "stopped",
+    "progress": "?",
+    "note": "Watched this one sporadically in my youth. If I ever find it, I'd give it a go again.",
+    "own": "partial",
+    "score": 7
+  },
+  {
+    "Title": "30 Rock",
+    "imdbID": "tt0496424",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 8 }],
+    "status": "watched",
+    "progress": "S7",
+    "own": "y",
+    "score": 9
+  },
+  {
+    "Title": "Dastardly and Muttley in Their Flying Machines",
+    "imdbID": "tt0063889",
+    "status": "watched",
+    "progress": "S1",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "F Is for Family",
+    "imdbID": "tt4326894",
+    "status": "unwatched",
+    "progress": "",
+    "own": "partial",
+    "score": 0
+  },
+  {
+    "Title": "Falling Skies",
+    "imdbID": "tt1462059",
+    "status": "unwatched",
+    "progress": "",
+    "own": "partial",
+    "score": 0
+  },
+  {
+    "Title": "Fringe",
+    "imdbID": "tt1119644",
+    "status": "unwatched",
+    "progress": "",
+    "own": "y",
+    "score": 0
+  },
+  {
+    "Title": "Greg the Bunny",
+    "imdbID": "tt0280257",
+    "status": "watched",
+    "progress": "",
+    "own": "partial",
+    "note": "have s1 s2, need s3",
+    "score": 0
+  },
+  {
+    "Title": "Hannibal",
+    "imdbID": "tt2243973",
+    "status": "unwatched",
+    "progress": "",
+    "own": "y",
+    "score": 0
+  },
+  {
+    "Title": "Crossing Jordan",
+    "imdbID": "tt0284718",
+    "status": "watched",
+    "progress": "S6",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "Help!... It's the Hair Bear Bunch!",
+    "imdbID": "tt0066667",
+    "status": "watched",
+    "progress": "S1",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Looney Tunes",
+    "tmdbID": "333432",
+    "status": "watched",
+    "progress": "n/a",
+    "note": "One of the greatest creations from entertainment industry. So epic!",
+    "own": "partial",
+    "score": 10
+  },
+  {
+    "Title": "Lost in Space",
+    "imdbID": "tt0058824",
+    "status": "watched",
+    "progress": "S3",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Mind Your Language",
+    "imdbID": "tt0075537",
+    "status": "towatch",
+    "progress": "",
+    "own": "partial",
+    "note": "own 1-3, need 4",
+    "score": 0
+  },
+  {
+    "Title": "Las Vegas",
+    "imdbID": "tt0364828",
+    "status": "watched",
+    "progress": "S5",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "Moonlighting",
+    "imdbID": "tt0088571",
+    "status": "watched",
+    "progress": "S5",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Numb3rs",
+    "imdbID": "tt0433309",
+    "status": "unwatched",
+    "progress": "",
+    "own": "y",
+    "score": 0
+  },
+  {
+    "Title": "Only Fools and Horses",
+    "imdbID": "tt0081912",
+    "status": "towatch",
+    "progress": "",
+    "own": "partial",
+    "score": 0
+  },
+  {
+    "Title": "Regular Show",
+    "imdbID": "tt1710308",
+    "status": "unwatched",
+    "progress": "",
+    "own": "partial",
+    "score": 0
+  },
+  {
+    "Title": "Tin Man",
+    "imdbID": "tt0910812",
+    "status": "watched",
+    "progress": "S1",
+    "own": "Amazon",
+    "score": 0
+  },
+  {
+    "Title": "The IT Crowd",
+    "imdbID": "tt0487831",
+    "status": "watched",
+    "progress": "S5",
+    "own": "n",
+    "score": 8
+  },
+  {
+    "Title": "Salem",
+    "imdbID": "tt2963254",
+    "status": "unwatched",
+    "progress": "",
+    "own": "partial",
+    "score": 0
+  },
+  {
+    "Title": "Schoolhouse Rock!",
+    "imdbID": "tt0069627",
+    "status": "stopped",
+    "progress": "S4",
+    "note": "Didn't stop so much as there was a gap in years and life changed.",
+    "own": "partial",
+    "score": 0
+  },
+  {
+    "Title": "American Horror Story: Murder House",
+    "Year": "2011",
+    "imdbID": "tt1844624",
+    "poster": "ahs-murderhouse",
+    "collections": [
+      { "collection": "American Horror Story" },
+      { "collection": "AHS" }
+    ],
+    "status": "watched",
+    "progress": "S1",
+    "score": 8
+  },
+  {
+    "Title": "American Horror Story: Asylum",
+    "Year": "2012",
+    "imdbID": "tt1844624",
+    "poster": "ahs-asylum",
+    "collections": [
+      { "collection": "American Horror Story" },
+      { "collection": "AHS" }
+    ],
+    "status": "watched",
+    "progress": "S1",
+    "score": 9
+  },
+  {
+    "Title": "American Horror Story: Coven",
+    "Year": "2013",
+    "imdbID": "tt1844624",
+    "poster": "ahs-coven",
+    "collections": [
+      { "collection": "American Horror Story" },
+      { "collection": "AHS" }
+    ],
+    "status": "watched",
+    "progress": "S1",
+    "score": 8
+  },
+  {
+    "Title": "American Horror Story: Freak Show",
+    "Year": "2014",
+    "imdbID": "tt1844624",
+    "poster": "ahs-freakshow",
+    "collections": [
+      { "collection": "American Horror Story" },
+      { "collection": "AHS" }
+    ],
+    "status": "watched",
+    "progress": "S1",
+    "score": 8
+  },
+  {
+    "Title": "American Horror Story: Hotel",
+    "Year": "2015",
+    "imdbID": "tt1844624",
+    "poster": "ahs-hotel",
+    "collections": [
+      { "collection": "American Horror Story" },
+      { "collection": "AHS" }
+    ],
+    "status": "watched",
+    "progress": "S1",
+    "score": 7
+  },
+  {
+    "Title": "American Horror Story: Roanoke",
+    "Year": "2016",
+    "imdbID": "tt1844624",
+    "poster": "ahs-roanoke",
+    "collections": [
+      { "collection": "American Horror Story" },
+      { "collection": "AHS" }
+    ],
+    "status": "watched",
+    "progress": "S1",
+    "score": 7
+  },
+  {
+    "Title": "American Horror Story: Cult",
+    "Year": "2017",
+    "imdbID": "tt1844624",
+    "poster": "ahs-cult",
+    "collections": [
+      { "collection": "American Horror Story" },
+      { "collection": "AHS" }
+    ],
+    "status": "stopped",
+    "note": "The only AHS season without the supernatural. Ditched the storytelling and wrote an op-ed.",
+    "progress": "S1 E1",
+    "score": 1
+  },
+  {
+    "Title": "American Horror Story: Apocalypse",
+    "Year": "2018",
+    "imdbID": "tt1844624",
+    "poster": "ahs-apocalypse",
+    "collections": [
+      { "collection": "American Horror Story" },
+      { "collection": "AHS" }
+    ],
+    "status": "watched",
+    "progress": "S1",
+    "score": 7
+  },
+  {
+    "Title": "American Horror Story: 1984",
+    "Year": "2019",
+    "imdbID": "tt1844624",
+    "poster": "ahs-1984",
+    "collections": [
+      { "collection": "American Horror Story" },
+      { "collection": "AHS" }
+    ],
+    "status": "watched",
+    "progress": "S1",
+    "score": 8
+  },
+  {
+    "Title": "American Horror Story: Double Feature",
+    "Year": "2021",
+    "imdbID": "tt1844624",
+    "poster": "ahs-doublefeature",
+    "collections": [
+      { "collection": "American Horror Story" },
+      { "collection": "AHS" }
+    ],
+    "status": "watched",
+    "progress": "S1",
+    "score": 7
+  },
+  {
+    "Title": "American Horror Story: NYC",
+    "Year": "2022",
+    "imdbID": "tt1844624",
+    "poster": "ahs-nyc",
+    "collections": [
+      { "collection": "American Horror Story" },
+      { "collection": "AHS" }
+    ],
+    "status": "watched",
+    "progress": "S1",
+    "score": 5
+  },
+  {
+    "Title": "American Horror Story: Delicate",
+    "Year": "2023",
+    "imdbID": "tt1844624",
+    "poster": "ahs-delicate",
+    "collections": [
+      { "collection": "American Horror Story" },
+      { "collection": "AHS" }
+    ],
+    "status": "watched",
+    "progress": "S1 E7",
+    "score": 4
+  },
+  {
+    "Title": "Scooby Doo, Where Are You!",
+    "imdbID": "tt0063950",
+    "status": "watched",
+    "progress": "S2",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Scorpion",
+    "imdbID": "tt3514324",
+    "status": "watching",
+    "progress": "S3 E11",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "Snagglepuss",
+    "imdbID": "tt5730328",
+    "status": "watched",
+    "progress": "S2",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Millennium",
+    "imdbID": "tt1634549",
+    "status": "watched",
+    "progress": "S1",
+    "own": "y",
+    "score": 9
+  },
+  {
+    "Title": "Soap",
+    "imdbID": "tt0075584",
+    "status": "watched",
+    "progress": "S4",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Speed Buggy",
+    "imdbID": "tt0069636",
+    "status": "watched",
+    "progress": "S1",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "The Stand",
+    "imdbID": "tt0108941",
+    "collections": [{ "collection": "Stephen King" }],
+    "own": "y",
+    "status": "watched",
+    "score": 7
+  },
+  {
+    "Title": "The Dead Zone",
+    "imdbID": "tt0281432",
+    "collections": [{ "collection": "Stephen King" }],
+    "status": "watched",
+    "progress": "S6",
+    "own": "n",
+    "score": 8
+  },
+  {
+    "Title": "The Umbrella Academy",
+    "imdbID": "tt1312171",
+    "status": "watched",
+    "dateWatched": "2024-10-04",
+    "progress": "S4",
+    "own": "Netflix",
+    "score": 4
+  },
+  {
+    "Title": "The Defenders",
+    "imdbID": "tt4230076",
+    "collections": [{ "collection": "Marvel Comics" }],
+    "status": "watched",
+    "score": 7
+  },
+  {
+    "Title": "Iron Fist",
+    "imdbID": "tt3322310",
+    "collections": [{ "collection": "Marvel Comics" }],
+    "status": "watched",
+    "score": 6
+  },
+  {
+    "Title": "Hawkeye",
+    "imdbID": "tt10160804",
+    "collections": [{ "collection": "Marvel Comics" }],
+    "status": "watched",
+    "progress": "S1",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Futurama",
+    "imdbID": "tt0149460",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 22 }],
+    "status": "watched",
+    "progress": "S7",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "The Larry Sanders Show",
+    "imdbID": "tt0103466",
+    "status": "watched",
+    "progress": "S6",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "The Monkees",
+    "imdbID": "tt0060010",
+    "status": "watched",
+    "progress": "",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "The New Batman Adventures",
+    "imdbID": "tt0118266",
+    "status": "towatch",
+    "progress": "",
+    "own": "y",
+    "score": 0
+  },
+  {
+    "Title": "The New Scooby-Doo Movies",
+    "Ratings": [
+      { "Value": "7.7/10" },
+      { "Source": "Rotten Tomatoes", "Value": "69%" }
+    ],
+    "imdbID": "tt0068112",
+    "status": "watched",
+    "progress": "S2",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Justified: City Primeval",
+    "imdbID": "tt14263564",
+    "status": "watched",
+    "progress": "S1",
+    "own": "FX",
+    "score": 7
+  },
+  {
+    "Title": "The Perils of Penelope Pitstop",
+    "imdbID": "tt0173587",
+    "status": "watched",
+    "progress": "S1",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Homeland",
+    "imdbID": "tt1796960",
+    "status": "watched",
+    "progress": "S8",
+    "own": "Hulu",
+    "dateWatched": "2024-10-22",
+    "score": 7
+  },
+  {
+    "Title": "The Leftovers",
+    "imdbID": "tt2699128",
+    "status": "watched",
+    "progress": "S3",
+    "score": 7
+  },
+  {
+    "Title": "Sherlock",
+    "imdbID": "tt1475582",
+    "status": "watched",
+    "dateWatched": "2024-07-12",
+    "progress": "S4",
+    "own": "Hulu",
+    "score": 9
+  },
+  {
+    "Title": "What If...?",
+    "imdbID": "tt10168312",
+    "collections": [{ "collection": "Marvel Comics" }],
+    "status": "watched",
+    "progress": "S3",
+    "own": "Disney",
+    "score": 6
+  },
+  {
+    "Title": "The Ren & Stimpy Show",
+    "imdbID": "tt0101178",
+    "status": "watched",
+    "progress": "S5",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "The Scooby-Doo/Dynomutt Hour",
+    "imdbID": "tt0074053",
+    "status": "watched",
+    "progress": "S3",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Secrets of the Zoo",
+    "imdbID": "tt8879238",
+    "status": "watched",
+    "progress": "S5",
+    "own": "Disney",
+    "score": 9
+  },
+  {
+    "Title": "Night Court",
+    "imdbID": "tt13798316",
+    "status": "stopped",
+    "dateWatched": "2023-01-26",
+    "progress": "S1 E3",
+    "note": "I loved the original, but this one just fell flat out of the gate.",
+    "own": "n",
+    "score": 3
+  },
+  {
+    "Title": "Thundarr the Barbarian",
+    "imdbID": "tt0181262",
+    "status": "watched",
+    "progress": "S2",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Spider-Man",
+    "imdbID": "tt0290983",
+    "collections": [{ "collection": "Marvel Comics" }],
+    "status": "watched",
+    "progress": "S1",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "The Haunting of Bly Manor",
+    "imdbID": "tt10970552",
+    "status": "watched",
+    "progress": "S1",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "WandaVision",
+    "imdbID": "tt9140560",
+    "collections": [{ "collection": "Marvel Comics" }],
+    "status": "watched",
+    "progress": "S1",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "The White Queen",
+    "imdbID": "tt2372220",
+    "status": "watched",
+    "progress": "S1",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Kaleidoscope",
+    "imdbID": "tt15438246",
+    "status": "watched",
+    "dateWatched": "2024-07-23",
+    "progress": "S1",
+    "own": "Netflix",
+    "score": 6
+  },
+  {
+    "Title": "Becker",
+    "imdbID": "tt0174378",
+    "status": "watched",
+    "progress": "S6",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "Torchwood",
+    "imdbID": "tt0485301",
+    "status": "unwatched",
+    "progress": "",
+    "own": "y",
+    "score": 0
+  },
+  {
+    "Title": "History of the World: Part II",
+    "imdbID": "tt15715052",
+    "status": "stopped",
+    "progress": "S1 E5",
+    "note": "Mel is comedy royalty for me, but this was just a terrible mess to me.",
+    "own": "Hulu",
+    "score": 3
+  },
+  {
+    "Title": "Wolverine and the X-Men",
+    "imdbID": "tt0772145",
+    "collections": [{ "collection": "Marvel Comics" }],
+    "status": "towatch",
+    "progress": "",
+    "own": "y",
+    "score": 0
+  },
+  {
+    "Title": "X-Men: Evolution",
+    "imdbID": "tt0247827",
+    "collections": [{ "collection": "Marvel Comics" }],
+    "status": "towatch",
+    "progress": "",
+    "own": "y",
+    "score": 0
+  },
+  {
+    "Title": "Star Wars: Forces of Destiny",
+    "imdbID": "tt6779076",
+    "collections": [{ "collection": "Star Wars" }],
+    "status": "towatch",
+    "progress": "",
+    "own": "y",
+    "score": 0
+  },
+  {
+    "Title": "The Rook",
+    "imdbID": "tt7395992",
+    "status": "watched",
+    "progress": "S1",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Mr. Robot",
+    "imdbID": "tt4158110",
+    "status": "watched",
+    "progress": "S4",
+    "own": "n",
+    "score": 8
+  },
+  {
+    "Title": "Shameless",
+    "Ratings": [
+      { "Value": "8.6/10" },
+      { "Source": "Rotten Tomatoes", "Value": "38%" }
+    ],
+    "imdbID": "tt1586680",
+    "status": "watched",
+    "progress": "S11",
+    "own": "partial",
+    "score": 8
+  },
+  {
+    "Title": "Halt and Catch Fire",
+    "imdbID": "tt2543312",
+    "status": "stopped",
+    "progress": "S1",
+    "note": "I think I stopped this in lieu of too many other shows at the time.",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "Medici",
+    "imdbID": "tt5057130",
+    "status": "towatch",
+    "progress": "",
+    "own": "n",
+    "score": 0
+  },
+  {
+    "Title": "The Woman in the House Across the Street from the Girl in the Window",
+    "imdbID": "tt13315324",
+    "status": "watched",
+    "dateWatched": "2022-02-03",
+    "progress": "S1",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "The Walking Dead: World Beyond",
+    "imdbID": "tt10148174",
+    "collections": [{ "collection": "The Walking Dead" }],
+    "status": "stopped",
+    "progress": "S1 E2",
+    "note": "I feel the drive to be unique ended with silliness. Tack on some poor or tired writing.",
+    "own": "n",
+    "score": 0
+  },
+  {
+    "Title": "The Last Kingdom",
+    "imdbID": "tt4179452",
+    "status": "towatch",
+    "progress": "",
+    "own": "n",
+    "score": 0
+  },
+  {
+    "Title": "Utopia",
+    "imdbID": "tt8303474",
+    "status": "watched",
+    "progress": "S1",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "Utopia",
+    "imdbID": "tt2384811",
+    "status": "",
+    "progress": "towatch",
+    "own": "y",
+    "score": 0
+  },
+  {
+    "Title": "The Dropout",
+    "imdbID": "tt10166622",
+    "status": "watched",
+    "dateWatched": "2022-11-15",
+    "progress": "S1",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Ozark",
+    "imdbID": "tt5071412",
+    "status": "watched",
+    "dateWatched": "2022-05-09",
+    "progress": "S4",
+    "own": "n",
+    "score": 9
+  },
+  {
+    "Title": "After Life",
+    "imdbID": "tt8398600",
+    "status": "watched",
+    "dateWatched": "2022-06-22",
+    "progress": "S3",
+    "score": 7
+  },
+  {
+    "Title": "Last Man Standing",
+    "imdbID": "tt1828327",
+    "status": "watched",
+    "dateWatched": "2022-07-24",
+    "progress": "S9",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "The Falcon and the Winter Soldier",
+    "imdbID": "tt9208876",
+    "collections": [{ "collection": "Marvel Comics" }],
+    "status": "watched",
+    "progress": "S1",
+    "own": "y",
+    "score": 6
+  },
+  {
+    "Title": "Tin Star",
+    "imdbID": "tt4607112",
+    "status": "watched",
+    "dateWatched": "2022-07-17",
+    "progress": "S3",
+    "own": "n",
+    "score": 8
+  },
+  {
+    "Title": "Heroes Reborn",
+    "imdbID": "tt3556944",
+    "status": "watched",
+    "progress": "S1",
+    "score": 7
+  },
+  {
+    "Title": "Stranger Things",
+    "imdbID": "tt4574334",
+    "status": "watched",
+    "progress": "S5",
+    "own": "Netflix",
+    "score": 8
+  },
+  {
+    "Title": "Animal Kingdom",
+    "imdbID": "tt5574490",
+    "status": "watched",
+    "dateWatched": "2022-09-01",
+    "progress": "S6",
+    "own": "n",
+    "score": 8
+  },
+  {
+    "Title": "24",
+    "imdbID": "tt0285331",
+    "status": "stopped",
+    "progress": "S8 E10",
+    "note": "This once great show was just getting too repetitive and giving bigger screen time to lesser actors/characters.",
+    "own": "n",
+    "score": 8
+  },
+  {
+    "Title": "24: Live Another Day",
+    "imdbID": "tt1598754",
+    "status": "towatch",
+    "progress": "",
+    "own": "y",
+    "score": 0
+  },
+  {
+    "Title": "Wings",
+    "imdbID": "tt0098948",
+    "status": "S8",
+    "progress": "watched",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "Heroes",
+    "imdbID": "tt0813715",
+    "status": "watched",
+    "progress": "S4",
+    "score": 7
+  },
+  {
+    "Title": "You",
+    "imdbID": "tt7335184",
+    "status": "watched",
+    "progress": "S5",
+    "own": "Netflix",
+    "score": 8
+  },
+  {
+    "Title": "Wayne",
+    "imdbID": "tt7765404",
+    "status": "watched",
+    "progress": "S1",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "Good Eats: Reloaded",
+    "imdbID": "tt9135436",
+    "status": "watching",
+    "progress": "random",
+    "own": "n",
+    "score": 10
+  },
+  {
+    "Title": "Good Eats",
+    "imdbID": "tt0344651",
+    "status": "watched",
+    "progress": "random",
+    "own": "n",
+    "score": 10
+  },
+  {
+    "Title": "Good Eats: The Return",
+    "imdbID": "tt10771948",
+    "status": "watching",
+    "progress": "random",
+    "own": "n",
+    "score": 10
+  },
+  {
+    "Title": "The Suspicions of Mr Whicher",
+    "imdbID": "tt11460508",
+    "status": "watched",
+    "dateWatched": "2023-01-29",
+    "progress": "S1",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Dead to Me",
+    "imdbID": "tt8064302",
+    "status": "watched",
+    "progress": "S3",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "The Fall of the House of Usher",
+    "imdbID": "tt15567174",
+    "status": "watched",
+    "dateWatched": "2023-11-02",
+    "progress": "S1",
+    "own": "Netflix",
+    "score": 8
+  },
+  {
+    "Title": "Lucifer",
+    "imdbID": "tt4052886",
+    "status": "watched",
+    "progress": "S6",
+    "score": 7
+  },
+  {
+    "Title": "Derek",
+    "imdbID": "tt2616280",
+    "status": "watched",
+    "progress": "S3",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "Night Court",
+    "imdbID": "tt0086770",
+    "status": "watched",
+    "progress": "S9",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "Parks and Recreation",
+    "imdbID": "tt1266020",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 16 }],
+    "status": "watched",
+    "dateWatched": "2024-03-08",
+    "progress": "S7",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Vikingane",
+    "imdbID": "tt5905354",
+    "status": "watched",
+    "progress": "S3",
+    "own": "n",
+    "score": 6
+  },
+  {
+    "Title": "Metalocalypse",
+    "imdbID": "tt0839188",
+    "status": "watched",
+    "progress": "S4",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Inventing Anna",
+    "imdbID": "tt8740976",
+    "status": "watched",
+    "dateWatched": "2022-04-23",
+    "progress": "S1",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "Mare of Easttown",
+    "imdbID": "tt10155688",
+    "status": "watched",
+    "progress": "S1",
+    "own": "n",
+    "score": 8
+  },
+  {
+    "Title": "Jupiter's Legacy",
+    "imdbID": "tt5774002",
+    "status": "watched",
+    "progress": "S1",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "SMILF",
+    "imdbID": "tt6274614",
+    "status": "stopped",
+    "progress": "S2 E4",
+    "note": "Show started good but then lost my interest in the second season.",
+    "own": "n",
+    "score": 6
+  },
+  {
+    "Title": "Killing Eve",
+    "Writer": "Phoebe Waller-Bridge",
+    "imdbID": "tt7016936",
+    "status": "watched",
+    "dateWatched": "2022-04-24",
+    "progress": "S4",
+    "own": "partial",
+    "score": 8
+  },
+  {
+    "Title": "Obi-Wan Kenobi",
+    "imdbID": "tt8466564",
+    "collections": [{ "collection": "Star Wars" }],
+    "status": "watched",
+    "progress": "S1",
+    "own": "y",
+    "score": 9
+  },
+  {
+    "Title": "The Captain",
+    "imdbID": "tt14713552",
+    "status": "watched",
+    "progress": "S1",
+    "own": "n",
+    "score": 8
+  },
+  {
+    "Title": "Humans",
+    "imdbID": "tt4122068",
+    "status": "watched",
+    "dateWatched": "2023-05-08",
+    "progress": "S3",
+    "own": "Amazon",
+    "score": 8
+  },
+  {
+    "Title": "Hanna",
+    "imdbID": "tt6932244",
+    "status": "watched",
+    "dateWatched": "2021-12-22",
+    "progress": "S3",
+    "note": "Great actings from a great cast and an excellent reworking of the excellent movie of the same name.",
+    "score": 8
+  },
+  {
+    "Title": "Robot Chicken",
+    "imdbID": "tt0437745",
+    "status": "watching",
+    "progress": "S11 E15",
+    "note": "An often foolish and often very funny goofy satirical collection of skits.",
+    "own": "partial",
+    "score": 7
+  },
+  {
+    "Title": "The 101 Scariest Horror Movie Moments of All Time",
+    "imdbID": "tt21923908",
+    "status": "watched",
+    "dateWatched": "2022-11-02",
+    "progress": "S1",
+    "own": "n",
+    "score": 9
+  },
+  {
+    "Title": "Mindhunter",
+    "imdbID": "tt5290382",
+    "status": "watched",
+    "progress": "S2",
+    "score": 7
+  },
+  {
+    "Title": "Greatest Events of WWII in Colour",
+    "imdbID": "tt9103932",
+    "status": "watched",
+    "dateWatched": "2022-01-04",
+    "progress": "S1",
+    "own": "n",
+    "score": 9
+  },
+  {
+    "Title": "Dexter: New Blood",
+    "imdbID": "tt14164730",
+    "status": "watched",
+    "dateWatched": "2022-01-20",
+    "progress": "S1",
+    "own": "7",
+    "score": 8
+  },
+  {
+    "Title": "Castle Rock",
+    "imdbID": "tt6548228",
+    "status": "watched",
+    "dateWatched": "2022-12-11",
+    "progress": "S2",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Bull",
+    "imdbID": "tt5827228",
+    "status": "watched",
+    "dateWatched": "2022-05-29",
+    "progress": "S6",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title": "Willow",
+    "imdbID": "tt10278918",
+    "status": "watched",
+    "dateWatched": "2023-04-29",
+    "progress": "S1",
+    "own": "Disney",
+    "score": 5
+  },
+  {
+    "Title":"Agatha Christie's Seven Dials",
+    "imdbID":"tt31974288",
+    "status": "watched",
+    "progress": "S1",
+    "own": "Netflix",
+    "score": 6
+  },
+  {
+    "Title": "The Good Place",
+    "imdbID": "tt4955642",
+    "status": "watched",
+    "dateWatched": "2022-06-25",
+    "progress": "S4",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Stan Against Evil",
+    "imdbID": "tt5722214",
+    "status": "watched",
+    "progress": "S3",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "The Exorcist",
+    "imdbID": "tt5368542",
+    "status": "watched",
+    "dateWatched": "2023-06-04",
+    "progress": "S2",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "1883",
+    "imdbID": "tt13991232",
+    "status": "watched",
+    "progress": "S1",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Veronica Mars",
+    "imdbID": "tt0412253",
+    "status": "watched",
+    "progress": "S4",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Brockmire",
+    "imdbID": "tt5722190",
+    "status": "stopped",
+    "dateWatched": "2022-01-24",
+    "progress": "S4 E2",
+    "note": "I felt it started running out of compelling ideas.",
+    "own": "y",
+    "score": 6
+  },
+  {
+    "Title": "History of Horror",
+    "imdbID": "tt7406320",
+    "status": "watched",
+    "dateWatched": "2022-09-07",
+    "progress": "S3",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "The Book of Boba Fett",
+    "imdbID": "tt13668894",
+    "collections": [{ "collection": "Star Wars" }],
+    "status": "watched",
+    "progress": "S1",
+    "own": "y",
+    "score": 6
+  },
+  {
+    "Title": "She-Hulk: Attorney at Law",
+    "imdbID": "tt10857160",
+    "status": "stopped",
+    "progress": "S1 E1",
+    "note": "Dead out of the gate. This one fails on almost every front.",
+    "own": "n",
+    "score": 4
+  },
+  {
+    "Title":"The Office",
+    "imdbID":"tt0386676",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 21 }],
+    "status": "watched",
+    "progress": "S9",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Dopesick",
+    "imdbID": "tt9174558",
+    "status": "watched",
+    "dateWatched": "2022-09-28",
+    "progress": "S1",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Schmigadoon!",
+    "imdbID": "tt11808942",
+    "status": "towatch",
+    "progress": "",
+    "own": "y",
+    "score": 0
+  },
+  {
+    "Title": "Bosch: Legacy",
+    "imdbID": "tt14168162",
+    "status": "watched",
+    "progress": "S3",
+    "own": "Amazon",
+    "score": 8
+  },
+  {
+    "Title": "Chucky",
+    "imdbID": "tt8388390",
+    "status": "unwatched",
+    "progress": "",
+    "own": "partial",
+    "score": 0
+  },
+  {
+    "Title": "The League",
+    "imdbID": "tt1480684",
+    "status": "watched",
+    "dateWatched": "2023-09-15",
+    "progress": "S7",
+    "own": "Hulu",
+    "score": 7
+  },
+  {
+    "Title": "V",
+    "imdbID": "tt1307824",
+    "status": "towatch",
+    "progress": "",
+    "own": "n",
+    "score": 0
+  },
+  {
+    "Title": "The Endgame",
+    "imdbID": "tt14507354",
+    "status": "watched",
+    "dateWatched": "2022-08-02",
+    "progress": "S1",
+    "own": "n",
+    "score": 5
+  },
+  {
+    "Title": "Rescue Me",
+    "imdbID": "tt0381798",
+    "status": "watched",
+    "progress": "S7",
+    "own": "n",
+    "score": 8
+  },
+  {
+    "Title": "Fear the Walking Dead",
+    "imdbID": "tt3743822",
+    "collections": [{ "collection": "The Walking Dead" }],
+    "status": "stopped again",
+    "progress": "S7",
+    "note": "Tried twice. I feel the drive to be unique ended with silliness. Tack on some poor or tired writing.",
+    "own": "n",
+    "score": 4
+  },
+  {
+    "Title": "Dirk Gently",
+    "imdbID": "tt2303367",
+    "status": "watched",
+    "dateWatched": "2023-02-11",
+    "progress": "S1",
+    "own": "BritBox",
+    "score": 7
+  },
+  {
+    "Title": "The Victim",
+    "imdbID": "tt8178650",
+    "status": "watched",
+    "dateWatched": "2023-02-07",
+    "progress": "S1",
+    "own": "BritBox",
+    "score": 8
+  },
+  {
+    "Title": "Star Wars: The Clone Wars",
+    "imdbID": "tt0458290",
+    "collections": [{ "collection": "Star Wars" }],
+    "status": "watched",
+    "dateWatched": "2023-09-28",
+    "progress": "S7",
+    "own": "y",
+    "score": 10
+  },
+  {
+    "Title": "Future Man",
+    "imdbID": "tt4975856",
+    "status": "watched",
+    "progress": "S3",
+    "own": "Hulu",
+    "score": 8
+  },
+  {
+    "Title": "The Boys Presents: Diabolical",
+    "imdbID": "tt16350094",
+    "status": "watched",
+    "progress": "S1",
+    "own": "Amazon",
+    "score": 6
+  },
+  {
+    "Title": "Dirk Gently's Holistic Detective Agency",
+    "imdbID": "tt4047038",
+    "status": "watched",
+    "progress": "S2",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Penny Dreadful",
+    "imdbID": "tt2628232",
+    "status": "watched",
+    "dateWatched": "2023-02-27",
+    "progress": "S3",
+    "own": "y",
+    "score": 9
+  },
+  {
+    "Title": "The Terminal List",
+    "imdbID": "tt11743610",
+    "status": "watched",
+    "progress": "S1",
+    "own": "Amazon",
+    "score": 8
+  },
+  {
+    "Title": "The Sinner",
+    "imdbID": "tt6048596",
+    "status": "watched",
+    "dateWatched": "2023-06-17",
+    "progress": "S4",
+    "own": "Netflix",
+    "score": 8
+  },
+  {
+    "Title": "Twin Peaks",
+    "imdbID": "tt0098936",
+    "status": "towatch",
+    "own": "Paramount",
+    "score": 0
+  },
+  {
+    "Title": "The Sandman",
+    "imdbID": "tt1751634",
+    "status": "watching",
+    "progress": "S1",
+    "own": "Netflix",
+    "score": 8
+  },
+  {
+    "Title": "Hunters",
+    "imdbID": "tt7456722",
+    "status": "watched",
+    "dateWatched": "2023-04-10",
+    "progress": "S2",
+    "own": "Amazon",
+    "score": 8
+  },
+  {
+    "Title": "The Walking Dead",
+    "imdbID": "tt1520211",
+    "collections": [{ "collection": "The Walking Dead" }],
+    "status": "watched",
+    "progress": "S11",
+    "own": "partiaL",
+    "score": 8
+  },
+  {
+    "Title":"Veep",
+    "imdbID":"tt1759761",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 11 }],
+    "status": "watched",
+    "dateWatched": "2023-07-29",
+    "progress": "S7",
+    "own": "HBO",
+    "score": 9
+  },
+  {
+    "Title": "Star Wars Rebels",
+    "imdbID": "tt2930604",
+    "collections": [{ "collection": "Star Wars" }],
+    "status": "watched",
+    "progress": "S4",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Archer",
+    "imdbID": "tt1486217",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 9 }],
+    "status": "watched",
+    "dateWatched": "2023-12-18",
+    "progress": "S14 E8",
+    "own": "partial",
+    "score": 9
+  },
+  {
+    "Title": "The Americans",
+    "imdbID": "tt2149175",
+    "progress": "S6",
+    "status": "watched",
+    "dateWatched": "2024-02-02",
+    "own": "Hulu",
+    "score": 8
+  },
+  {
+    "Title": "FUBAR",
+    "imdbID": "tt13064902",
+    "status": "stopped",
+    "progress": "S1",
+    "note": "Not great. Had potential, but just never founds its way to a quality level.",
+    "own": "Netflix",
+    "score": 6
+  },
+  {
+    "Title": "Moon Knight",
+    "imdbID": "tt10234724",
+    "collections": [{ "collection": "Marvel Comics" }],
+    "status": "watched",
+    "progress": "S1",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Why Didn't They Ask Evans?",
+    "imdbID": "tt14829590",
+    "status": "watched",
+    "dateWatched": "2024-01-14",
+    "progress": "S1",
+    "own": "BritBox",
+    "score": 8
+  },
+  {
+    "Title": "The Walking Dead: The Ones Who Live",
+    "imdbID": "tt9859436",
+    "collections": [{ "collection": "The Walking Dead" }],
+    "status": "unwatched",
+    "progress": "",
+    "own": "n",
+    "score": 0
+  },
+  {
+    "Title": "The Mandalorian",
+    "imdbID": "tt8111088",
+    "collections": [{ "collection": "Star Wars" }],
+    "status": "watching",
+    "progress": "S3",
+    "own": "partial",
+    "score": 7
+  },
+  {
+    "Title": "Tom Clancy's Jack Ryan",
+    "imdbID": "tt5057054",
+    "status": "watched",
+    "progress": "S4",
+    "own": "Amazon",
+    "score": 8
+  },
+  {
+    "Title": "Loki",
+    "imdbID": "tt9140554",
+    "collections": [{ "collection": "Marvel Comics" }],
+    "status": "watched",
+    "progress": "S2",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "The Penguin",
+    "imdbID": "tt15435876",
+    "status": "watched",
+    "progress": "S1",
+    "own": "Max",
+    "score": 9
+  },
+  {
+    "Title": "Succession",
+    "imdbID": "tt7660850",
+    "status": "watched",
+    "dateWatched": "2024-01-26",
+    "progress": "S4",
+    "own": "HBO",
+    "score": 8
+  },
+  {
+    "Title": "Letterkenny",
+    "imdbID": "tt4647692",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 25 }],
+    "status": "watched",
+    "dateWatched": "2024-02-05",
+    "progress": "S12",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Tales of the Jedi",
+    "imdbID": "tt20723374",
+    "collections": [{ "collection": "Star Wars" }],
+    "status": "watching",
+    "progress": "S1",
+    "own": "Disney",
+    "score": 0
+  },
+  {
+    "Title": "Star Wars Resistance",
+    "imdbID": "tt8336340",
+    "collections": [{ "collection": "Star Wars" }],
+    "status": "towatch",
+    "progress": "",
+    "own": "Disney",
+    "score": 0
+  },
+  {
+    "Title": "Brand New Cherry Flavor",
+    "imdbID": "tt11343600",
+    "status": "watched",
+    "dateWatched": "2024-03-24",
+    "progress": "S1",
+    "own": "Netflix",
+    "score": 8
+  },
+  {
+    "Title": "Westworld",
+    "imdbID": "tt0475784",
+    "status": "watched",
+    "progress": "S4",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Curb Your Enthusiasm",
+    "imdbID": "tt0264235",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 7 }],
+    "status": "watched",
+    "dateWatched": "2024-06-19",
+    "progress": "S12",
+    "own": "y",
+    "score": 9
+  },
+  {
+    "Title": "Fargo",
+    "imdbID": "tt2802850",
+    "status": "watched",
+    "progress": "S5",
+    "score": 8
+  },
+  {
+    "Title": "Ahsoka",
+    "imdbID": "tt13622776",
+    "collections": [{ "collection": "Star Wars" }],
+    "status": "watching",
+    "progress": "S1",
+    "own": "Disney",
+    "score": 7
+  },
+  {
+    "Title": "Cursed Films",
+    "imdbID": "tt10036104",
+    "status": "watched",
+    "progress": "S2",
+    "own": "n",
+    "score": 5
+  },
+  {
+    "Title": "True Detective",
+    "imdbID": "tt2356777",
+    "status": "watching",
+    "progress": "S4",
+    "own": "HBO",
+    "score": 7
+  },
+  {
+    "Title": "The Abbott and Costello Show",
+    "imdbID": "tt0044229",
+    "status": "watching",
+    "progress": "S1 E1",
+    "own": "y",
+    "score": 0
+  },
+  {
+    "Title": "Shameless",
+    "imdbID": "tt0377260",
+    "status": "watching",
+    "progress": "S2",
+    "own": "partial",
+    "score": 8
+  },
+  {
+    "Title": "Schitt's Creek",
+    "imdbID": "tt3526078",
+    "status": "stopped",
+    "progress": "S2",
+    "note": "Great at the parental level, painfully and annoyingly slow, repetitive and uninteresting with the children.",
+    "own": "Hulu",
+    "score": 0
+  },
+  {
+    "Title": "Quiet on Set: The Dark Side of Kids TV",
+    "imdbID": "tt31193442",
+    "status": "watched",
+    "progress": "S1",
+    "own": "Max",
+    "score": 8
+  },
+  {
+    "Title": "Secret Invasion",
+    "imdbID": "tt13157618",
+    "collections": [{ "collection": "Marvel Comics" }],
+    "status": "watched",
+    "progress": "S1",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Black Mirror",
+    "imdbID": "tt2085059",
+    "status": "watching",
+    "progress": "S7",
+    "score": 7
+  },
+  {
+    "Title": "Shoresy",
+    "imdbID": "tt18249282",
+    "status": "watching",
+    "progress": "S3",
+    "own": "Hulu",
+    "score": 8
+  },
+  {
+    "Title": "A Murder at the End of the World",
+    "imdbID": "tt15227418",
+    "status": "watched",
+    "dateWatched": "2024-11-21",
+    "progress": "S1",
+    "own": "Hulu",
+    "score": 0
+  },
+  {
+    "Title": "Billy Joel: And So It Goes",
+    "imdbID": "tt36458116",
+    "status": "watched",
+    "progress": "S1",
+    "note": "Fantastic! I'm a huge fan and yet still learned so much I didn't know. Super engaging.",
+    "own": "HBO",
+    "score": 10
+  },
+  {
+    "Title": "The Staircase",
+    "imdbID": "tt0388644",
+    "status": "watched",
+    "progress": "S1",
+    "own": "Netflix",
+    "score": 7
+  },
+  {
+    "Title": "Yellowstone",
+    "imdbID": "tt4236770",
+    "status": "watched",
+    "progress": "S5",
+    "own": "n",
+    "score": 9
+  },
+  {
+    "Title": "The Acolyte",
+    "imdbID": "tt12262202",
+    "collections": [{ "collection": "Star Wars" }],
+    "status": "watched",
+    "progress": "S1",
+    "own": "Disney",
+    "score": 0
+  },
+  {
+    "Title": "The Lord of the Rings: The Rings of Power",
+    "imdbID": "tt7631058",
+    "status": "watching",
+    "progress": "S2",
+    "own": "Amazon",
+    "score": 6
+  },
+  {
+    "Title": "The Ricky Gervais Show",
+    "imdbID": "tt1553644",
+    "status": "watching",
+    "dateWatched": "2025-01-25",
+    "progress": "S1 E6",
+    "own": "y",
+    "score": 0
+  },
+  {
+    "Title": "Evil",
+    "imdbID": "tt9055008",
+    "status": "watched",
+    "progress": "S4",
+    "own": "y",
+    "score": 8
+  },
+  {
+    "Title": "Alfred Hitchcock Presents",
+    "imdbID": "tt0047708",
+    "status": "watching",
+    "progress": "S1 E1",
+    "own": "Amazon",
+    "score": 0
+  },
+  {
+    "Title": "Dexter: Original Sin",
+    "imdbID": "tt32252772",
+    "status": "watched",
+    "dateWatched": "2025-03-07",
+    "progress": "S1",
+    "own": "n",
+    "score": 9
+  },
+  {
+    "Title": "Resident Evil",
+    "imdbID": "tt9660182",
+    "status": "watched",
+    "progress": "S1",
+    "own": "Netflix",
+    "score": 3
+  },
+  {
+    "Title": "Celtics City",
+    "imdbID": "tt34555174",
+    "status": "watched",
+    "progress": "S1",
+    "own": "HBO",
+    "score": 9
+  },
+  {
+    "Title": "Andor",
+    "imdbID": "tt9253284",
+    "collections": [{ "collection": "Star Wars" }],
+    "status": "watched",
+    "progress": "S2",
+    "own": "Disney",
+    "score": 7
+  },
+  {
+    "Title": "The Last of Us",
+    "imdbID": "tt3581920",
+    "status": "watching",
+    "progress": "S2",
+    "own": "HBO",
+    "score": 10
+  },
+  {
+    "Title": "Light & Magic",
+    "imdbID": "tt19896784",
+    "status": "watched",
+    "progress": "S2",
+    "own": "Disney",
+    "score": 9
+  },
+  {
+    "Title": "American Primeval",
+    "imdbID": "tt24069848",
+    "status": "watched",
+    "progress": "S1",
+    "own": "Netflix",
+    "score": 8
+  },
+  {
+    "Title": "The Perfect Couple",
+    "imdbID": "tt11514868",
+    "status": "watched",
+    "progress": "S1",
+    "own": "Netflix",
+    "score": 7
+  },
+  {
+    "Title": "Pulse",
+    "imdbID": "tt31407116",
+    "status": "watched",
+    "progress": "S1",
+    "own": "Netflix",
+    "score": 0
+  },
+  {
+    "Title": "Your Honor",
+    "imdbID": "tt7440726",
+    "status": "watched",
+    "progress": "S2",
+    "own": "Netflix",
+    "score": 7
+  },
+  {
+    "Title": "Squid Game",
+    "imdbID": "tt10919420",
+    "status": "watched",
+    "dateWatched": "2025-01-24",
+    "progress": "S3",
+    "own": "Netflix",
+    "score": 8
+  },
+  {
+    "Title": "The Midnight Club",
+    "imdbID": "tt13444912",
+    "status": "watched",
+    "progress": "S1",
+    "own": "Netflix",
+    "score": 6
+  },
+  {
+    "Title": "The Better Sister",
+    "imdbID": "tt32260680",
+    "status": "watched",
+    "progress": "S1",
+    "own": "Amazon",
+    "score": 7
+  },
+  {
+    "Title": "Ballard",
+    "imdbID": "tt26676904",
+    "status": "stopped",
+    "progress": "S1 E1",
+    "note": "I really wanted to like this but the first episode was sooooo bad. Fire the writers.",
+    "own": "Amazon",
+    "score": 3
+  },
+  {
+    "Title": "Ted",
+    "imdbID": "tt14824792",
+    "status": "watching",
+    "progress": "S1",
+    "own": "partiaL",
+    "score": 7
+  },
+  {
+    "Title": "The Wheel of Time",
+    "imdbID": "tt7462410",
+    "status": "watched",
+    "progress": "S3",
+    "own": "n",
+    "score": 6
+  },
+  {
+    "Title": "Dept. Q",
+    "imdbID": "tt27995114",
+    "status": "watching",
+    "progress": "S1",
+    "own": "Netflix",
+    "score": 9
+  },
+  {
+    "Title": "Dexter: Resurrection",
+    "imdbID": "tt33043892",
+    "status": "watching",
+    "progress": "S1",
+    "own": "Showtime",
+    "score": 9
+  },
+  {
+    "Title": "America's Team: The Gambler and His Cowboys",
+    "imdbID": "tt32376299",
+    "status": "watched",
+    "progress": "S1",
+    "own": "Netflix",
+    "score": 9
+  },
+  {
+    "Title": "The Bondsman",
+    "imdbID": "tt28256288",
+    "status": "watched",
+    "progress": "S1",
+    "own": "Amazon",
+    "score": 6
+  },
+  {
+    "Title": "Euphoria",
+    "imdbID": "tt8772296",
+    "status": "towatch",
+    "progress": "",
+    "own": "HBO",
+    "score": 0
+  },
+  {
+    "Title": "The Peripheral",
+    "imdbID": "tt8291284",
+    "status": "watched",
+    "progress": "S1 E7",
+    "own": "Amazon",
+    "score": 8
+  },
+  {
+    "Title": "Alien: Earth",
+    "imdbID": "tt13623632",
+    "status": "watching",
+    "progress": "S1",
+    "own": "FX",
+    "score": 7
+  },
+  {
+    "Title": "Marvel Zombies",
+    "Ratings": [],
+    "imdbID": "tt16027014",
+    "status": "towatch",
+    "progress": "",
+    "own": "Disney",
+    "score": 0
+  },
+  {
+    "Title": "Wednesday",
+    "imdbID": "tt13443470",
+    "status": "watching",
+    "progress": "S2",
+    "own": "Netflix",
+    "score": 8
+  },
+  {
+    "Title": "Monster",
+    "imdbID": "tt13207736",
+    "status": "watching",
+    "progress": "S3",
+    "own": "Netflix",
+    "score": 7
+  },
+  {
+    "Title": "The Red King",
+    "imdbID": "tt8174510",
+    "status": "watching",
+    "progress": "S1",
+    "own": "AMC+",
+    "score": 7
+  },
+  {
+    "Title": "Dear Child",
+    "imdbID": "tt20863760",
+    "status": "watched",
+    "progress": "S1",
+    "own": "Netflix",
+    "score": 8
+  },
+  {
+    "Title": "A.P. Bio",
+    "Writer": "Michael Patrick O'Brien",
+    "imdbID": "tt6461726",
+    "status": "stopped again",
+    "progress": "S3",
+    "own": "Netflix",
+    "score": 5
+  },
+  {
+    "Title": "South Park",
+    "imdbID": "tt0121955",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 4 }],
+    "status": "watching",
+    "progress": "S28 E6",
+    "own": "partial",
+    "score": 10
+  },
+  {
+    "Title": "The Walking Dead: Dead City",
+    "imdbID": "tt18546730",
+    "collections": [{ "collection": "The Walking Dead" }],
+    "status": "stopped",
+    "progress": "S3 E1",
+    "note": "I feel the drive to be unique ended with silliness. Tack on some poor or tired writing.",
+    "own": "n",
+    "score": 6
+  },
+  {
+    "Title": "The Terminal List: Dark Wolf",
+    "imdbID": "tt26576161",
+    "status": "watching",
+    "progress": "S1",
+    "own": "Amazon",
+    "score": 8
+  },
+  {
+    "Title": "Creepshow",
+    "imdbID": "tt8762206",
+    "status": "watching",
+    "progress": "S4 E4",
+    "own": "partial",
+    "score": 7
+  },
+  {
+    "Title": "NOS4A2",
+    "imdbID": "tt5194792",
+    "status": "watched",
+    "progress": "S2",
+    "own": "AMC+",
+    "score": 7
+  },
+  {
+    "Title": "The Walking Dead: Daryl Dixon",
+    "imdbID": "tt13062500",
+    "collections": [{ "collection": "The Walking Dead" }],
+    "status": "stopped",
+    "progress": "S3 E6",
+    "note": "I feel the drive to be unique ended with silliness. Tack on some poor or tired writing.",
+    "own": "n",
+    "score": 5
+  },
+  {
+    "Title": "Love & Death",
+    "imdbID": "tt14586350",
+    "status": "watched",
+    "progress": "S1",
+    "own": "Netflix",
+    "score": 7
+  },
+  {
+    "Title": "Spartacus",
+    "imdbID": "tt1442449",
+    "status": "watched",
+    "progress": "S3",
+    "own": "Starz",
+    "score": 8
+  },
+  {
+    "Title": "Spartacus: Gods of the Arena",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTYyMjI4NzYxOF5BMl5BanBnXkFtZTcwNTUwMTc1NA@@._V1_SX300.jpg",
+    "imdbID": "tt1758429",
+    "status": "watched",
+    "progress": "S1",
+    "own": "Starz",
+    "score": 8
+  },
+  {
+    "Title": "Shifting Gears",
+    "Writer": "Mike Scully, Julie Thacker-Scully",
+    "imdbID": "tt31614348",
+    "status": "watching",
+    "progress": "S2",
+    "own": "Hulu",
+    "score": 6
+  },
+  {
+    "Title": "Black Rabbit",
+    "imdbID": "tt23055142",
+    "status": "watched",
+    "progress": "S1",
+    "own": "Netflix",
+    "score": 7
+  },
+  {
+    "Title": "Run Away",
+    "imdbID": "tt9169516",
+    "status": "watched",
+    "progress": "S1",
+    "own": "Netflix",
+    "score": 0
+  },
+  {
+    "Title": "Gen V",
+    "imdbID": "tt13159924",
+    "status": "watching",
+    "progress": "S2",
+    "own": "Amazon",
+    "score": 6
+  },
+  {
+    "Title": "His & Hers",
+    "imdbID": "tt33035373",
+    "status": "watched",
+    "progress": "S1",
+    "own": "Netflix",
+    "score": 6
+  },
+  {
+    "Title":"The Boys",
+    "imdbID":"tt1190634",
+    "status": "watched",
+    "progress": "S5",
+    "own": "partial",
+    "score": 8
+  },
+  {
+    "Title": "The Following",
+    "imdbID": "tt2071645",
+    "status": "watched",
+    "progress": "S3",
+    "own": "Netflix",
+    "score": 6
+  },
+  {
+    "Title": "Spartacus: House of Ashur",
+    "imdbID": "tt29921437",
+    "status": "watched",
+    "progress": "S1",
+    "own": "Starz",
+    "score": 8
+  },
+  {
+    "Title":"Beast Games",
+    "imdbID":"tt31812476",
+    "status": "stopped",
+    "progress": "S2 E5",
+    "note": "It has it's forumula. Eventually, it's reality tv heaviness was too much for my taste.",
+    "own": "Amazon",
+    "score": 6
+  },
+  {
+    "Title": "IT: Welcome to Derry",
+    "imdbID": "tt19244304",
+    "status": "watching",
+    "progress": "S1",
+    "own": "y",
+    "score": 7
+  },
+  {
+    "Title": "Deadwind",
+    "imdbID": "tt6616260",
+    "status": "watched",
+    "progress": "S3",
+    "own": "Netflix",
+    "score": 7
+  },
+  {
+    "Title": "Scrubs",
+    "imdbID": "tt0285403",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 10 }],
+    "progress": "S10",
+    "status": "watching",
+    "score": 9
+  },
+  {
+    "Title":"The Abandons",
+    "imdbID":"tt16280546",
+    "status": "watching",
+    "progress": "S1",
+    "own": "Netflix",
+    "score": 7
+  },
+  {
+    "Title":"NCIS",
+    "imdbID":"tt0364845",
+    "status": "watching",
+    "progress": "S23",
+    "score": 9
+  },
+  {
+    "Title":"Marshals",
+    "imdbID":"tt36849871",
+    "status": "watching",
+    "progress": "S1",
+    "own": "CBS",
+    "score": 4
+  },
+  {
+    "Title":"Invincible",
+    "imdbID":"tt6741278",
+    "status": "watching",
+    "progress": "S4 E6",
+    "own": "Amazon",
+    "score": 8
+  },
+  {
+    "Title":"Full Swing",
+    "imdbID":"tt17050700",
+    "status": "watching",
+    "progress": "S3",
+    "own": "Amazon",
+    "score": 9
+  },
+  {
+    "Title":"1923",
+    "imdbID":"tt18335752",
+    "status": "watching",
+    "progress": "S2",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title":"The Witcher",
+    "imdbID":"tt5180504",
+    "status": "watching",
+    "progress": "S4",
+    "score": 8
+  },
+  {
+    "Title":"Bob's Burgers",
+    "imdbID":"tt1561755",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 13 }],
+    "status": "watching",
+    "progress": "S16 E15",
+    "score": 9
+  },
+  {
+    "Title":"Star Wars: Maul - Shadow Lord",
+    "imdbID":"tt36594331",
+    "status": "watching",
+    "progress": "S1",
+    "own": "Disney",
+    "score": 9
+  },
+  {
+    "Title":"Fallout",
+    "imdbID":"tt12637874",
+    "status": "stopped",
+    "progress": "S2 E2",
+    "note": "The show had a lot going on, I had a lot going on, needed to hit the pause button. I may revisit.",
+    "own": "Amazon",
+    "score": 7
+  },
+  {
+    "Title":"Shrinking",
+    "imdbID":"tt15677150",
+    "status": "watching",
+    "progress": "S1 E2",
+    "own": "Apple+",
+    "score": 0
+  },
+  {
+    "Title":"Mad Men",
+    "imdbID":"tt0804503",
+    "status": "towatch",
+    "progress": "",
+    "own": "",
+    "score": 0
+  },
+  {
+    "Title":"A Knight of the Seven Kingdoms",
+    "imdbID":"tt27497448",
+    "status": "watching",
+    "progress": "S1",
+    "own": "",
+    "score": 6
+  },
+  {
+    "Title":"Dutton Ranch",
+    "imdbID":"tt34991493",
+    "status": "watching",
+    "progress": "S1 E9",
+    "own": "n",
+    "score": 0
+  },
+  {
+    "Title":"Daredevil: Born Again",
+    "imdbID":"tt18923754",
+    "status": "watching",
+    "progress": "S2",
+    "own": "Disney",
+    "score": 0
+  },
+  {
+    "Title":"House of the Dragon",
+    "imdbID":"tt11198330",
+    "status": "watching",
+    "progress": "S3 E4",
+    "own": "HBO",
+    "score": 8
+  },
+  {
+    "Title":"NCIS: Tony & Ziva",
+    "imdbID":"tt31512256",
+    "status": "watched",
+    "progress": "S1",
+    "own": "n",
+    "note": "I love NCIS and the characters, but the writing here was sadly, pretty terrible.",
+    "score": 5
+  },
+  {
+    "Title":"Two Weeks to Live",
+    "imdbID":"tt6075088",
+    "status": "stopped",
+    "progress": "S1 E2",
+    "note": "Bad bad bad. Not sure if I should blame the writer, director, editor or all of the above.",
+    "own": "Amazon",
+    "score": 3
+  },
+  {
+    "Title":"The Hawk",
+    "imdbID":"tt27550719",
+    "status": "stopped",
+    "progress": "S1 E5-6",
+    "note": "Despite being a golf fanatic and a Will Ferrell fan, this is trash. Bad on every front.",
+    "own": "Netflix",
+    "score": 3
+  },
+  {
+    "Title":"The Pitt",
+    "imdbID":"tt31938062",
+    "status": "watching",
+    "progress": "S2",
+    "note": "Absolutely brilliant! Top notch acting across the board. Fast paced. No holds barred being on HBO.",
+    "own": "Max",
+    "score": 9
+  },
+  {
+    "Title":"Chernobyl",
+    "imdbID":"tt7366338",
+    "status": "watched",
+    "progress": "S1",
+    "note": "A very well done series. Post watch research proved some liberties were taken, but much was true to the story and emotions.",
+    "own": "HBO",
+    "score": 8
+  },
+  {
+    "Title":"Ted Lasso",
+    "imdbID":"tt10986410",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 21 }],
+    "status": "watching",
+    "progress": "S4 E5",
+    "note": "A fanasticly put together show with great performances and writing.",
+    "own": "partiaL",
+    "score": 8
+  },
+  {
+    "Title":"Criminal Minds",
+    "imdbID":"tt0452046",
+    "status": "watching",
+    "progress": "S19 E3",
+    "own": "partial",
+    "score": 8
+  },
+  {
+    "Title":"Alley Cats",
+    "imdbID":"tt38264832",
+    "status": "watching",
+    "progress": "S1 E2",
+    "own": "Netflix",
+    "score": 0
+  },
+  {
+    "Title":"Widow's Bay",
+    "imdbID":"tt33332385",
+    "status": "watching",
+    "progress": "S1",
+    "own": "Apple+",
+    "score": 7
+  },
+  {
+    "Title":"Malcolm in the Middle",
+    "imdbID":"tt0212671",
+    "status": "watched",
+    "progress": "S7",
+    "own": "Disney",
+    "score": 7
+  },
+  {
+    "Title":"The Prisoner",
+    "imdbID":"tt0061287",
+    "status": "watching",
+    "progress": "S1 E6",
+    "own": "Amazon",
+    "dateWatched": "2025-01-23",
+    "score": 0
+  },
+  {
+    "Title":"It's Always Sunny in Philadelphia",
+    "imdbID":"tt0472954",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 15 }],
+    "status": "watching",
+    "progress": "S18 E6",
+    "own": "partial",
+    "score": 8
+  },
+  {
+    "Title": "Furious",
+    "imdbID":"tt36303968",
+    "status": "towatch",
+    "progress": "",
+    "own": "Hulu",
+    "score": 0
+  },
+  {
+    "Title": "11.22.63",
+    "imdbID": "tt2879552",
+    "status": "watching",
+    "progress": "S1 E3",
+    "own": "",
+    "score": 0
+  },
+  {
+    "Title": "Douglas Is Cancelled",
+    "imdbID": "tt29940008",
+    "status": "watched",
+    "progress": "S1",
+    "own": "n",
+    "score": 7
+  },
+  {
+    "Title":"Reacher",
+    "imdbID":"tt9288030",
+    "status": "watching",
+    "progress": "S3",
+    "own": "Amazon",
+    "score": 8
+  },
+  {
+    "Title": "",
+    "imdbID": "",
+    "status": "",
+    "progress": "",
+    "own": "",
+    "score": 0
+  },
+  {
+    "Title": "",
+    "imdbID": "",
+    "status": "",
+    "progress": "",
+    "own": "",
+    "score": 0
+  },
+  {
+    "Title": "",
+    "imdbID": "",
+    "status": "",
+    "progress": "",
+    "own": "",
+    "score": 0
+  },
+  {
+    "Title": "",
+    "imdbID": "",
+    "status": "",
+    "progress": "",
+    "own": "",
+    "score": 0
+  },
+  {
+    "Title": "",
+    "imdbID": "",
+    "status": "",
+    "progress": "",
+    "own": "",
+    "score": 0
+  },
+  {
+    "Title": "",
+    "imdbID": "",
+    "status": "",
+    "progress": "",
+    "own": "",
+    "score": 0
+  }
+]

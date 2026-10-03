@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query'
 import { Link, useLocation, useParams } from 'react-router-dom'
-import { catalogCdnPosterUrl, catalogCount, catalogImdbId, catalogTmdbId, catalogYear, formatPersonalScore, normalizeTitle } from '../api/catalog'
+import { catalogCount, catalogImdbId, catalogPosterUrl, catalogTmdbId, catalogYear, formatPersonalScore, normalizeTitle } from '../api/catalog'
 import { getShow, posterUrl, tmdbShowUrl, youtubeTrailer, yearFromDate } from '../api/tmdb'
 import { EmptyState, ErrorMessage, Spinner } from '../components/Status'
 import { usePersonalCatalog } from '../hooks/usePersonalCatalog'
@@ -68,7 +68,7 @@ export function ShowPage() {
     return normalizeTitle(entry.Title ?? '') === normalizeTitle(catalogTitle)
   })
   const displayName = yours?.Title?.trim() || show.name
-  const poster = catalogCdnPosterUrl(yours) || posterUrl(show.poster_path, 'w500')
+  const poster = catalogPosterUrl(yours) || posterUrl(show.poster_path, 'w500')
   const trailer = youtubeTrailer(show)
   const creators =
     (show.created_by ?? []).map((person) => person.name).filter(Boolean).join(', ') ||

@@ -1,5 +1,4 @@
-/** Live file is television.json (the path without .json 404s). */
-export const PERSONAL_CATALOG_URL = 'https://assets.dougkarda.com/data/television.json'
+export const PERSONAL_CATALOG_URL = '/data/television.json'
 
 /** Cap TMDB lookups while catalog import is under test. Raise this after QA. */
 export const PERSONAL_SHOW_LIMIT = 10000
@@ -87,9 +86,9 @@ export function catalogYear(show: PersonalShow): string {
   return match?.[0] ?? ''
 }
 
-const CDN_POSTER_BASE = 'https://assets.dougkarda.com/images/posters'
+const CATALOG_POSTER_BASE = '/images/posters'
 
-export function usesCatalogCdnPoster(show: Pick<PersonalShow, 'poster' | 'collections'>) {
+export function usesCatalogPoster(show: Pick<PersonalShow, 'poster' | 'collections'>) {
   if (show.poster?.startsWith('ahs-')) return true
   return (show.collections ?? []).some(
     (item) => item.collection === 'AHS' || item.collection === 'American Horror Story',
@@ -97,12 +96,12 @@ export function usesCatalogCdnPoster(show: Pick<PersonalShow, 'poster' | 'collec
 }
 
 /** Season-specific posters for anthology rows that share one IMDb id. */
-export function catalogCdnPosterUrl(show: PersonalShow | null | undefined) {
-  if (!show || !usesCatalogCdnPoster(show)) return null
+export function catalogPosterUrl(show: PersonalShow | null | undefined) {
+  if (!show || !usesCatalogPoster(show)) return null
   const slug = show.poster?.trim()
   const year = catalogYear(show)
   if (!slug || !year) return null
-  return `${CDN_POSTER_BASE}/${encodeURIComponent(slug)}-${year}-poster.webp`
+  return `${CATALOG_POSTER_BASE}/${encodeURIComponent(slug)}-${year}-poster.webp`
 }
 
 export function catalogCount(value: string | undefined) {

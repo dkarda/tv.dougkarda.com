@@ -1,6 +1,6 @@
 # tv.dougkarda.com
 
-Personal TV site: search and filter TMDB shows, plus your ratings, stats, and unwatched list from your catalog JSON.
+Personal TV site: search and filter TMDB shows, plus your ratings, stats, and unwatched list from the catalog in this repo (`public/data/television.json`).
 
 ## Stack
 
@@ -28,6 +28,8 @@ npm run dev
 ```
 
 Restart the dev server after changing `.env`.
+
+American Horror Story season posters are in `public/images/posters/` and are served from this site, not the assets CDN. Other titles use TMDB images.
 
 ## Caching
 

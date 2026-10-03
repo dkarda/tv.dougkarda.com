@@ -8,7 +8,7 @@ type Props = {
     own?: string
     listRank?: number
     catalogTitle?: string
-    cdnPoster?: string
+    catalogPoster?: string
     note?: string
     status?: string
     progress?: string
@@ -54,7 +54,7 @@ function OwnStar({ own }: { own?: string }) {
 
 export function ShowCard({ show }: Props) {
   const location = useLocation()
-  const poster = show.cdnPoster || posterUrl(show.poster_path, 'w342')
+  const poster = show.catalogPoster || posterUrl(show.poster_path, 'w342')
   const year = yearFromDate(show.first_air_date)
 
   return (
@@ -132,7 +132,7 @@ export function ShowGrid({
       own?: string
       listRank?: number
       catalogTitle?: string
-      cdnPoster?: string
+      catalogPoster?: string
       note?: string
       status?: string
       progress?: string
