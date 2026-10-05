@@ -3380,15 +3380,6 @@
     "score": 5
   },
   {
-    "Title": "South Park",
-    "imdbID": "tt0121955",
-    "toplists": [{ "listName": "Sitcoms", "listRank": 4 }],
-    "status": "watching",
-    "progress": "S28 E6",
-    "own": "partial",
-    "score": 10
-  },
-  {
     "Title": "The Walking Dead: Dead City",
     "imdbID": "tt18546730",
     "collections": [{ "collection": "The Walking Dead" }],
@@ -3738,14 +3729,6 @@
     "score": 8
   },
   {
-    "Title":"Criminal Minds",
-    "imdbID":"tt0452046",
-    "status": "watching",
-    "progress": "S19 E3",
-    "own": "partial",
-    "score": 8
-  },
-  {
     "Title":"Alley Cats",
     "imdbID":"tt38264832",
     "status": "watching",
@@ -3783,7 +3766,7 @@
     "imdbID":"tt0472954",
     "toplists": [{ "listName": "Sitcoms", "listRank": 15 }],
     "status": "watching",
-    "progress": "S18 E6",
+    "progress": "S18 E8",
     "own": "partial",
     "score": 8
   },
@@ -3817,6 +3800,23 @@
     "status": "watching",
     "progress": "S3",
     "own": "Amazon",
+    "score": 8
+  },
+  {
+    "Title": "South Park",
+    "imdbID": "tt0121955",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 4 }],
+    "status": "watching",
+    "progress": "S28 E6",
+    "own": "partial",
+    "score": 10
+  },
+  {
+    "Title":"Criminal Minds",
+    "imdbID":"tt0452046",
+    "status": "watching",
+    "progress": "S19 E4",
+    "own": "partial",
     "score": 8
   },
   {
