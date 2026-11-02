@@ -302,7 +302,7 @@
   {
     "Title": "MythBusters",
     "imdbID": "tt0383126",
-    "status": "watching",
+    "status": "watched",
     "progress": "S14",
     "own": "n",
     "score": 10
@@ -3357,7 +3357,7 @@
   {
     "Title": "The Red King",
     "imdbID": "tt8174510",
-    "status": "watching",
+    "status": "watched",
     "progress": "S1",
     "own": "AMC+",
     "score": 7
@@ -3400,8 +3400,8 @@
   {
     "Title": "Creepshow",
     "imdbID": "tt8762206",
-    "status": "watching",
-    "progress": "S4 E4",
+    "status": "watched",
+    "progress": "S4",
     "own": "partial",
     "score": 7
   },
@@ -3422,6 +3422,14 @@
     "note": "I feel the drive to be unique ended with silliness. Tack on some poor or tired writing.",
     "own": "n",
     "score": 5
+  },
+  {
+    "Title": "11.22.63",
+    "imdbID": "tt2879552",
+    "status": "watched",
+    "progress": "S1",
+    "own": "Netflix",
+    "score": 7
   },
   {
     "Title": "Love & Death",
@@ -3542,29 +3550,22 @@
     "Title": "Scrubs",
     "imdbID": "tt0285403",
     "toplists": [{ "listName": "Sitcoms", "listRank": 10 }],
-    "progress": "S10",
-    "status": "watching",
+    "progress": "S9",
+    "status": "watched",
     "score": 9
   },
   {
     "Title":"The Abandons",
     "imdbID":"tt16280546",
-    "status": "watching",
+    "status": "watched",
     "progress": "S1",
     "own": "Netflix",
     "score": 7
   },
   {
-    "Title":"NCIS",
-    "imdbID":"tt0364845",
-    "status": "watching",
-    "progress": "S23",
-    "score": 9
-  },
-  {
     "Title":"Marshals",
     "imdbID":"tt36849871",
-    "status": "watching",
+    "status": "stopped",
     "progress": "S1",
     "own": "CBS",
     "score": 4
@@ -3588,7 +3589,7 @@
   {
     "Title":"1923",
     "imdbID":"tt18335752",
-    "status": "watching",
+    "status": "watched",
     "progress": "S2",
     "own": "n",
     "score": 7
@@ -3719,16 +3720,6 @@
     "score": 8
   },
   {
-    "Title":"Ted Lasso",
-    "imdbID":"tt10986410",
-    "toplists": [{ "listName": "Sitcoms", "listRank": 21 }],
-    "status": "watching",
-    "progress": "S4 E5",
-    "note": "A fanasticly put together show with great performances and writing.",
-    "own": "partiaL",
-    "score": 8
-  },
-  {
     "Title":"Alley Cats",
     "imdbID":"tt38264832",
     "status": "watching",
@@ -3762,28 +3753,11 @@
     "score": 0
   },
   {
-    "Title":"It's Always Sunny in Philadelphia",
-    "imdbID":"tt0472954",
-    "toplists": [{ "listName": "Sitcoms", "listRank": 15 }],
-    "status": "watching",
-    "progress": "S18 E8",
-    "own": "partial",
-    "score": 8
-  },
-  {
     "Title": "Furious",
     "imdbID":"tt36303968",
     "status": "towatch",
     "progress": "",
     "own": "Hulu",
-    "score": 0
-  },
-  {
-    "Title": "11.22.63",
-    "imdbID": "tt2879552",
-    "status": "watching",
-    "progress": "S1 E3",
-    "own": "",
     "score": 0
   },
   {
@@ -3795,45 +3769,91 @@
     "score": 7
   },
   {
-    "Title":"Reacher",
-    "imdbID":"tt9288030",
-    "status": "watching",
-    "progress": "S3",
-    "own": "Amazon",
-    "score": 8
-  },
-  {
     "Title": "South Park",
     "imdbID": "tt0121955",
     "toplists": [{ "listName": "Sitcoms", "listRank": 4 }],
     "status": "watching",
-    "progress": "S28 E6",
+    "progress": "S29 E4",
     "own": "partial",
     "score": 10
+  },
+  {
+    "Title":"Ted Lasso",
+    "imdbID":"tt10986410",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 21 }],
+    "status": "watching",
+    "progress": "S4",
+    "note": "A fanasticly put together show with great performances and writing.",
+    "own": "partiaL",
+    "score": 8
+  },
+  {
+    "Title": "American Horror Story: 13",
+    "Year": "2026",
+    "imdbID": "tt1844624",
+    "poster": "ahs-13",
+    "collections": [
+      { "collection": "American Horror Story" },
+      { "collection": "AHS" }
+    ],
+    "status": "watching",
+    "progress": "S1 E11",
+    "score": 0
   },
   {
     "Title":"Criminal Minds",
     "imdbID":"tt0452046",
     "status": "watching",
-    "progress": "S19 E4",
+    "progress": "S19 E5",
     "own": "partial",
     "score": 8
   },
   {
-    "Title": "",
-    "imdbID": "",
-    "status": "",
-    "progress": "",
-    "own": "",
+    "Title":"It's Always Sunny in Philadelphia",
+    "imdbID":"tt0472954",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 15 }],
+    "status": "watching",
+    "progress": "S18 E9",
+    "own": "partial",
+    "score": 8
+  },
+  {
+    "Title": "Carrie",
+    "imdbID": "tt11540908",
+    "status": "watching",
+    "progress": "S1",
+    "own": "Amazon",
+    "score": 8
+  },
+  {
+    "Title":"NCIS",
+    "imdbID":"tt0364845",
+    "status": "watching",
+    "progress": "S24 E4",
+    "score": 9
+  },
+  {
+    "Title": "Scrubs",
+    "imdbID": "tt40197357",
+    "progress": "S1 E6",
+    "status": "watching",
+    "score": 9
+  },
+  {
+    "Title": "Crystal Lake",
+    "imdbID": "tt23148340",
+    "status": "watching",
+    "progress": "S1 E4",
+    "own": "n",
     "score": 0
   },
   {
-    "Title": "",
-    "imdbID": "",
-    "status": "",
-    "progress": "",
-    "own": "",
-    "score": 0
+    "Title":"Reacher",
+    "imdbID":"tt9288030",
+    "status": "watching",
+    "progress": "S4 E6",
+    "own": "Amazon",
+    "score": 8
   },
   {
     "Title": "",
