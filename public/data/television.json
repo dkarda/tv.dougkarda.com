@@ -2755,14 +2755,6 @@
     "score": 9
   },
   {
-    "Title": "The Terminal List",
-    "imdbID": "tt11743610",
-    "status": "watched",
-    "progress": "S1",
-    "own": "Amazon",
-    "score": 8
-  },
-  {
     "Title": "The Sinner",
     "imdbID": "tt6048596",
     "status": "watched",
@@ -3602,29 +3594,12 @@
     "score": 8
   },
   {
-    "Title":"Bob's Burgers",
-    "imdbID":"tt1561755",
-    "toplists": [{ "listName": "Sitcoms", "listRank": 13 }],
-    "status": "watching",
-    "progress": "S16 E15",
-    "score": 9
-  },
-  {
     "Title":"Star Wars: Maul - Shadow Lord",
     "imdbID":"tt36594331",
     "status": "watching",
     "progress": "S1",
     "own": "Disney",
     "score": 9
-  },
-  {
-    "Title":"Fallout",
-    "imdbID":"tt12637874",
-    "status": "stopped",
-    "progress": "S2 E2",
-    "note": "The show had a lot going on, I had a lot going on, needed to hit the pause button. I may revisit.",
-    "own": "Amazon",
-    "score": 7
   },
   {
     "Title":"Shrinking",
@@ -3769,15 +3744,6 @@
     "score": 7
   },
   {
-    "Title": "South Park",
-    "imdbID": "tt0121955",
-    "toplists": [{ "listName": "Sitcoms", "listRank": 4 }],
-    "status": "watching",
-    "progress": "S29 E4",
-    "own": "partial",
-    "score": 10
-  },
-  {
     "Title":"Ted Lasso",
     "imdbID":"tt10986410",
     "toplists": [{ "listName": "Sitcoms", "listRank": 21 }],
@@ -3804,7 +3770,7 @@
     "Title":"Criminal Minds",
     "imdbID":"tt0452046",
     "status": "watching",
-    "progress": "S19 E5",
+    "progress": "S19",
     "own": "partial",
     "score": 8
   },
@@ -3835,7 +3801,7 @@
   {
     "Title": "Scrubs",
     "imdbID": "tt40197357",
-    "progress": "S1 E6",
+    "progress": "S1 E7",
     "status": "watching",
     "score": 9
   },
@@ -3843,15 +3809,49 @@
     "Title": "Crystal Lake",
     "imdbID": "tt23148340",
     "status": "watching",
-    "progress": "S1 E4",
+    "progress": "S1",
     "own": "n",
-    "score": 0
+    "score": 7
   },
   {
     "Title":"Reacher",
     "imdbID":"tt9288030",
     "status": "watching",
     "progress": "S4 E6",
+    "own": "Amazon",
+    "score": 8
+  },
+  {
+    "Title": "South Park",
+    "imdbID": "tt0121955",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 4 }],
+    "status": "watching",
+    "progress": "S29 E4",
+    "own": "partial",
+    "score": 10
+  },
+  {
+    "Title":"Bob's Burgers",
+    "imdbID":"tt1561755",
+    "toplists": [{ "listName": "Sitcoms", "listRank": 13 }],
+    "status": "watching",
+    "progress": "S16 E5",
+    "score": 9
+  },
+  {
+    "Title":"Fallout",
+    "imdbID":"tt12637874",
+    "status": "stopped",
+    "progress": "S2 E3",
+    "note": "The show had a lot going on, I had a lot going on, needed to hit the pause button. I may revisit.",
+    "own": "Amazon",
+    "score": 7
+  },
+  {
+    "Title": "The Terminal List",
+    "imdbID": "tt11743610",
+    "status": "watched",
+    "progress": "S2 E1",
     "own": "Amazon",
     "score": 8
   },
